@@ -36,9 +36,9 @@ Seuraavaksi halusin lisätä juuri asennetun Debian ISO image osaksi virtuaaliko
 Lähde: https://terokarvinen.com/2021/install-debian-on-virtualbox/ 
 
 ## Lähteet: 
-Karvinen Tero: Raportin kirjoittaminen. https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
-Free Software Foundation. What is Free Software?. GNU Operating System. https://www.gnu.org/philosophy/free-sw.html
-Karvinen Tero: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/
-Karvinen Tero: Tehtävänanto: https://terokarvinen.com/linux-palvelimet/ 
-Download Debian ISO image. https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ 
+Karvinen Tero: Raportin kirjoittaminen. https://terokarvinen.com/2006/raportin-kirjoittaminen-4/  
+Free Software Foundation. What is Free Software?. GNU Operating System. https://www.gnu.org/philosophy/free-sw.html  
+Karvinen Tero: Install Debian on Virtualbox - Updated 2024. https://terokarvinen.com/2021/install-debian-on-virtualbox/  
+Karvinen Tero: Tehtävänanto: https://terokarvinen.com/linux-palvelimet/   
+Download Debian ISO image. https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/   
 
