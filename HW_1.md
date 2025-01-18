@@ -31,7 +31,11 @@ Tietokoneessani oli valmiiksi asennettuna Virtual Box, jonka avasin kun debian-l
 Ensimmäiseksi aloitin tekemään uutta virtuaalikonetta. Aukeamasta klikkasin "Machine" kohtaa josta valitsin "New" kohdan. Tähän aukeasi "Virtual machine Name and Operating System" johon syötin nimen virtuaalikoneelle. Tähän aukeamaan en muuttanut muuta, mutta katsoin että tyyppi ja versio oli valittu oikein. Valintana oli valmiiksi "Linux" ja "Debian (64-bit), jotka halusinkin. Sitten klikkasin "next", josta aukesi "Hardware", jossa valitsin perusmuistin kooksi 4MB. Klikattuani taas "next" aukesi "Virtual Hard disk", johon valitsin levyn kooksi 60GB. Seuraavaksi tarkistin "Summary" aukeamasta, että
 kaikki tiedot ovat oikein ja valitsin "Finish" suorittaakseen asennuksen loppuun. Virtuaalikoneen asennus onnistui oikein ja uusi virtuaalikone oli nyt nähtävissä virtualboxissa.
 
-Seuraavaksi halusin lisätä juuri asennetun Debian ISO image osaksi virtuaalikonetta. 
+Seuraavaksi halusin lisätä juuri asennetun Debian ISO image osaksi virtuaalikonetta. Valitsin juuri lisätyn virtuaalikoneen, sieltä "Storage" ---> "Empty" ja "Choose Virtual Optical Disk File" ja sieltä etsin tiedostoista juuri ladatun Debian tiedoston debian-live-12.9.0-amd64-xfce.iso. Haasteena tässä kohdassa oli löytää oikea tiedosto, mutta löysin sen kuitenkin hetkenpäästä. Nyt virtuaalikone oli onnistuneesti asennettu. 
+
+
+
+
 
 Lähde: https://terokarvinen.com/2021/install-debian-on-virtualbox/ 
 
