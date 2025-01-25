@@ -22,12 +22,18 @@ Lähde: https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/
 ## c) 
 
 
-![Screenshot 2025-01-25 180231](https://github.com/user-attachments/assets/5b340162-8277-44e3-b239-6ee750b1eb1e)
 
 ![Screenshot 2025-01-25 180219](https://github.com/user-attachments/assets/ac258ad7-3899-44cd-84af-c685c05979b2)
-![Screenshot 2025-01-25 180400](https://github.com/user-attachments/assets/c903b94c-7896-4832-8690-809583eae262)
-![Screenshot 2025-01-25 180323](https://github.com/user-attachments/assets/d81b90ab-0169-4396-96d8-a9d0cabe5677)
+
+![Screenshot 2025-01-25 180231](https://github.com/user-attachments/assets/5b340162-8277-44e3-b239-6ee750b1eb1e)
+
 ![Screenshot 2025-01-25 180241](https://github.com/user-attachments/assets/34e4b473-c249-4f0a-b44e-016a5cbdc246)
+
+![Screenshot 2025-01-25 180400](https://github.com/user-attachments/assets/c903b94c-7896-4832-8690-809583eae262)
+
+![Screenshot 2025-01-25 180323](https://github.com/user-attachments/assets/d81b90ab-0169-4396-96d8-a9d0cabe5677)
+
+
 
 
 
