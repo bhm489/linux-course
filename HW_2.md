@@ -5,7 +5,7 @@ $-merkki on automaattisesti komentokehotteessa, jota käyttäjän ei itse tarvit
 
 ## a) Micro
 
-Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen: "curl https://getmic.ro | bash. Tämän syötin terminaaliin, joka suoritti asennuksen. Onnistuneesta asennuksesta tuli teksti "Micro Installed".
+Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen: " curl https://getmic.ro | bash " Tämän syötin terminaaliin, joka suoritti asennuksen. Onnistuneesta asennuksesta tuli teksti "Micro Installed".
 ![Screenshot 2025-01-25 121100](https://github.com/user-attachments/assets/81d39acc-5ec2-4dee-8071-40a5c53590d8)
 
 Lähde: https://micro-editor.github.io/ 
