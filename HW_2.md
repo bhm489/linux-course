@@ -31,8 +31,7 @@ Tehtävässä pyydetyt kansiot olivat / - Root directory. /home/ - Home director
 Root directory. Sain näkyviin syöttämällä terminaaliin: ls /
 ![Screenshot 2025-01-25 180219](https://github.com/user-attachments/assets/ac258ad7-3899-44cd-84af-c685c05979b2)
 
-Home directories for all users. Syötin komennon: ls /home/, jolla sain tämän näkyviin. Ensiksi tämä ei meinannut toimia, mutta tajusin, että se ei toiminut koska olin jättänyt välilyönnin pois ls ja ensimmäisen / välistä. Tajusin tämän kuitenkin aika äkkiä. 
-![Screenshot 2025-01-25 180231](https://github.com/user-attachments/assets/5b340162-8277-44e3-b239-6ee750b1eb1e)
+Home directories for all users. Syötin komennon: ls /home/, jolla sain tämän näkyviin. Ensiksi tämä ei meinannut toimia, mutta tajusin, että se ei toiminut koska olin jättänyt välilyönnin pois ls ja ensimmäisen / välistä. Tajusin tämän kuitenkin aika äkkiä.   ![Screenshot 2025-01-25 180231](https://github.com/user-attachments/assets/5b340162-8277-44e3-b239-6ee750b1eb1e)
 
 Home directory for user "marianne". Tämän sain näkyviin komennolla: ls /home/marianne 
 ![Screenshot 2025-01-25 180241](https://github.com/user-attachments/assets/34e4b473-c249-4f0a-b44e-016a5cbdc246)
