@@ -22,3 +22,4 @@ Lähde: https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/
 
 ## Lähteet 
 Tero Karvinen: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited  
+GeeksforGeeks. apt-get command in Linux with Examples. 17.6.2024. https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/
