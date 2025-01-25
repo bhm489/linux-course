@@ -13,11 +13,11 @@ Lähde: https://micro-editor.github.io/
 
 ![Screenshot 2025-01-25 121845](https://github.com/user-attachments/assets/f2173ee2-8562-488e-b888-98fba1917fe9)
 
+![Screenshot 2025-01-25 121927](https://github.com/user-attachments/assets/875d4d9b-3d4b-464f-8754-539f4608b999)
+
 ![Screenshot 2025-01-25 122046](https://github.com/user-attachments/assets/25e9efff-9492-4385-91fa-1badd2633abe)
 
 ![Screenshot 2025-01-25 122108](https://github.com/user-attachments/assets/fa8029ef-ff05-4a11-aa27-860c1fb30bc9)
-
-![Screenshot 2025-01-25 121927](https://github.com/user-attachments/assets/875d4d9b-3d4b-464f-8754-539f4608b999)
 
 Lähde: https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/ 
 
