@@ -17,6 +17,8 @@ $-merkki on automaattisesti komentokehotteessa, jota käyttäjän ei itse tarvit
 
 ![Screenshot 2025-01-25 121927](https://github.com/user-attachments/assets/875d4d9b-3d4b-464f-8754-539f4608b999)
 
+Lähde: https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/ 
+
 
 ## Lähteet 
 Tero Karvinen: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited  
