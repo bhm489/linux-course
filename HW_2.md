@@ -56,7 +56,13 @@ Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. 
 
 ![Screenshot 2025-01-26 140207](https://github.com/user-attachments/assets/47d1b45b-9b2c-4c19-84b8-7ff263591054)
 
-## f) 
+## f) rauta
+
+![Screenshot 2025-01-26 142100](https://github.com/user-attachments/assets/fcfc3c51-a248-4baa-88fd-2c0666abc50a)
+
+![Screenshot 2025-01-26 142113](https://github.com/user-attachments/assets/36f269d0-f9d9-4436-86cf-c1ab2d3823b9)
+
+![Screenshot 2025-01-26 142034](https://github.com/user-attachments/assets/e27675d7-f026-4fb7-b393-9e93dbaf689b)
 
 ## Lähteet 
 Tero Karvinen: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited  
