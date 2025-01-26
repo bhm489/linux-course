@@ -1,11 +1,13 @@
 # Kotitehtävä 2
 
+Laitteenani oli Lenovon Yoga Pro 7 kannettava tietokone ja käytössä oli toimiva WiFi-yhteys. 
+
 ## x) Command Line Basics Revisited 
 $-merkki on automaattisesti komentokehotteessa, jota käyttäjän ei itse tarvitse kirjoitaa. Komentokehote on ollut olemassa jo kauan. Se on kätevä, nopea, ja helppo automatisoida. Komentokehotteessa olemme aina hakemistossa. Helpoimmat tekstieditorit ovat pico ja nano. (https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited). On olemassa monia eri komentoja, joista tärkeimmät ja käytetyimmät on hyvä oppia ulkoa.
 
 ## a) Micro
 
-Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen: " curl https://getmic.ro | bash " Tämän syötin terminaaliin, joka suoritti asennuksen. Onnistuneesta asennuksesta tuli teksti "Micro Installed".
+Asennuksen aloitin 25.1.2025 klo. 12.11 Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen: " curl https://getmic.ro | bash " Tämän syötin terminaaliin, joka suoritti asennuksen. Onnistuneesta asennuksesta tuli teksti "Micro Installed". Asennus oli valmis klo. 12.18
 
 ![Screenshot 2025-01-25 121100](https://github.com/user-attachments/assets/81d39acc-5ec2-4dee-8071-40a5c53590d8)
 
@@ -13,7 +15,7 @@ Lähde: https://micro-editor.github.io/
 
 ## b) apt
 
-Päätin asentaa ohjelmat, htop, cowsay ja cmatrix. Kaikki kolme ohjelmaa pystyi asentamaan helposti syöttämättä terminaaliin "sudo apt-get install htop cowsay cmatrix". 
+Aloitin asennuksen klo. 12.02. Päätin asentaa ohjelmat, htop, cowsay ja cmatrix. Kaikki kolme ohjelmaa pystyi asentamaan helposti syöttämättä terminaaliin "sudo apt-get install htop cowsay cmatrix". Tehtävä oli valmis klo. 12.28
 
 ![Screenshot 2025-01-25 121845](https://github.com/user-attachments/assets/f2173ee2-8562-488e-b888-98fba1917fe9)
 
@@ -27,13 +29,13 @@ Lähde: https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/
 
 ## c) FHS
 
-Tehtävässä pyydetyt kansiot olivat / - Root directory. /home/ - Home directories for all users. /home/maria/ Home directory of user "xxx". /etc/ - System wide settings. /media/ - Removable media. /var/log - System wide logs. (https://terokarvinen.com/2009/command-line-basics-4/#important_directories). 
+Aloitin tehtävän klo. 18.15. Tehtävässä pyydetyt kansiot olivat / - Root directory. /home/ - Home directories for all users. /home/maria/ Home directory of user "xxx". /etc/ - System wide settings. /media/ - Removable media. /var/log - System wide logs. (https://terokarvinen.com/2009/command-line-basics-4/#important_directories). Tehtävä oli valmis klo. 19.50
 
 Root directory. Sain näkyviin syöttämällä terminaaliin: ls /  
 
 ![Screenshot 2025-01-25 180219](https://github.com/user-attachments/assets/ac258ad7-3899-44cd-84af-c685c05979b2)
 
-Home directories for all users. Syötin komennon: ls /home/, jolla sain tämän näkyviin. Ensiksi tämä ei meinannut toimia, mutta tajusin, että se ei toiminut koska olin jättänyt välilyönnin pois ls ja ensimmäisen / välistä. Tajusin tämän kuitenkin aika äkkiä.  
+Home directories for all users. Syötin komennon: ls /home/, jolla sain tämän näkyviin.
 
 ![Screenshot 2025-01-25 180231](https://github.com/user-attachments/assets/5b340162-8277-44e3-b239-6ee750b1eb1e)
 
@@ -54,7 +56,7 @@ Lähde: https://terokarvinen.com/2009/command-line-basics-4/#important_directori
 
 ## d) grep
 
-Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Löytääkseen haetun tekstin syötin komennon: grep mandariini testfile2.txt joka löysi tämän sanan kyseisestä tiedostosta.  
+Aloitin tehtävän 26.1.2025 klo. 11.32. Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Löytääkseen haetun tekstin syötin komennon: grep mandariini testfile2.txt joka löysi tämän sanan kyseisestä tiedostosta. Tehtävä oli valmis klo. 12.40
 
 ![Screenshot 2025-01-26 135724](https://github.com/user-attachments/assets/5c839e7f-8250-4bb3-82ab-0e3f06933b76)
 
@@ -62,11 +64,15 @@ Lähde: https://phoenixnap.com/kb/grep-command-linux-unix-examples
 
 ## e) pipe
 
+Aloitin tehtävän klo. 12.56 ja se oli valmis klo. 13.24. 
+
 ![Screenshot 2025-01-26 140207](https://github.com/user-attachments/assets/47d1b45b-9b2c-4c19-84b8-7ff263591054)
 
 Lähde: https://phoenixnap.com/kb/grep-command-linux-unix-examples 
 
 ## f) rauta
+
+Aloitin tekemään tehtävää klo. 14.04 ja se oli valmis klo. 14.56 
 
 ![Screenshot 2025-01-26 142100](https://github.com/user-attachments/assets/fcfc3c51-a248-4baa-88fd-2c0666abc50a)
 
