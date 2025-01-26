@@ -60,7 +60,11 @@ Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. 
 
 ![Screenshot 2025-01-26 142100](https://github.com/user-attachments/assets/fcfc3c51-a248-4baa-88fd-2c0666abc50a)
 
+Asensin lshw ensimmäiseksi, että saisin listan näkyviin. 
+
 ![Screenshot 2025-01-26 142113](https://github.com/user-attachments/assets/36f269d0-f9d9-4436-86cf-c1ab2d3823b9)
+
+Listauksessa on nähtävissä ensimmäisenä h/w path, jolla viitataan laitteiston polkuun. Device kertoo mihin laitteeseen viitataan. Class määrittää laitteen tyypin tai luokan, esim. muisti tai prosessori. Description nimensä mukaisesti antaa lisätietoa laitteesta.  
 
 ![Screenshot 2025-01-26 142034](https://github.com/user-attachments/assets/e27675d7-f026-4fb7-b393-9e93dbaf689b)
 
