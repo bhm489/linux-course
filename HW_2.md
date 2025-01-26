@@ -47,7 +47,7 @@ System wide settings. Syötin terminaaliin komennon: ls /etc/ , tästä tuli pal
 
 ![Screenshot 2025-01-25 180323](https://github.com/user-attachments/assets/d81b90ab-0169-4396-96d8-a9d0cabe5677)
 
-Removable media. Tästä en ole täysin varma menikö minulla oikein, kun syötin ls /media/ niin mitään ei tapahtunut, mutta en ole täysin varma että mitä olisi pitänyt tulla esille. 
+Removable media. Syötin ls /media/. 
 System wide logs. Komennolla: ls /var/log/ sain esille viimeiset kansiot.  
 
 ![Screenshot 2025-01-25 180400](https://github.com/user-attachments/assets/c903b94c-7896-4832-8690-809583eae262)
