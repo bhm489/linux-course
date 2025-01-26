@@ -49,7 +49,8 @@ Lähde: https://terokarvinen.com/2009/command-line-basics-4/#important_directori
 ## d)
 
 Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Löytääkseen haetun tekstin syötin komennon: grep mandariini testfile2.txt joka löysi tämän sanan kyseisestä tiedostosta.  
-![Screenshot 2025-01-26 134654](https://github.com/user-attachments/assets/c2d21074-54d5-413e-95df-9897d6c7ad34)
+
+![Screenshot 2025-01-26 135724](https://github.com/user-attachments/assets/5c839e7f-8250-4bb3-82ab-0e3f06933b76)
 
 ## e)
 
