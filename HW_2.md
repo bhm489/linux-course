@@ -52,9 +52,13 @@ Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. 
 
 ![Screenshot 2025-01-26 135724](https://github.com/user-attachments/assets/5c839e7f-8250-4bb3-82ab-0e3f06933b76)
 
+Lähde: https://phoenixnap.com/kb/grep-command-linux-unix-examples 
+
 ## e) pipe
 
 ![Screenshot 2025-01-26 140207](https://github.com/user-attachments/assets/47d1b45b-9b2c-4c19-84b8-7ff263591054)
+
+Lähde: https://phoenixnap.com/kb/grep-command-linux-unix-examples 
 
 ## f) rauta
 
@@ -70,4 +74,4 @@ Listauksessa on nähtävissä ensimmäisenä h/w path, jolla viitataan laitteist
 
 ## Lähteet 
 Tero Karvinen: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited  
-GeeksforGeeks. apt-get command in Linux with Examples. 17.6.2024. https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/
+GeeksforGeeks. apt-get command in Linux with Examples. 17.6.2024. https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/  
