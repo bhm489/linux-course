@@ -7,7 +7,7 @@ $-merkki on automaattisesti komentokehotteessa, jota käyttäjän ei itse tarvit
 
 ## a) Micro
 
-Asennuksen aloitin 25.1.2025 klo. 12.11 Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen: " curl https://getmic.ro | bash " Tämän syötin terminaaliin, joka suoritti asennuksen. Onnistuneesta asennuksesta tuli teksti "Micro Installed". Asennus oli valmis klo. 12.18
+Micro editor asennuksen aloitin 25.1.2025 klo. 12.11. Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen: "curl https://getmic.ro | bash". Tämän syötin terminaaliin, joka suoritti asennuksen. Onnistuneesta asennuksesta tuli teksti "Micro Installed". Asennus oli valmis klo. 12.18
 
 ![Screenshot 2025-01-25 121100](https://github.com/user-attachments/assets/81d39acc-5ec2-4dee-8071-40a5c53590d8)
 
@@ -15,7 +15,7 @@ Lähde: https://micro-editor.github.io/
 
 ## b) apt
 
-Aloitin asennuksen klo. 12.02. Päätin asentaa ohjelmat, htop, cowsay ja cmatrix. Kaikki kolme ohjelmaa pystyi asentamaan helposti syöttämättä terminaaliin "sudo apt-get install htop cowsay cmatrix". Tehtävä oli valmis klo. 12.28
+Aloitin tehtävän klo. 12.02. Päätin asentaa ohjelmat, htop, cowsay ja cmatrix. Kaikki kolme ohjelmaa pystyi asentamaan helposti syöttämättä terminaaliin "sudo apt-get install htop cowsay cmatrix". Tehtävä oli valmis klo. 12.28
 
 ![Screenshot 2025-01-25 121845](https://github.com/user-attachments/assets/f2173ee2-8562-488e-b888-98fba1917fe9)
 
@@ -80,7 +80,7 @@ Asensin lshw ensimmäiseksi, että saisin listan näkyviin.
 
 ![Screenshot 2025-01-26 142113](https://github.com/user-attachments/assets/36f269d0-f9d9-4436-86cf-c1ab2d3823b9)
 
-Listauksessa on nähtävissä ensimmäisenä h/w path, jolla viitataan laitteiston polkuun. Device kertoo mihin laitteeseen viitataan. Class määrittää laitteen tyypin tai luokan, esim. muisti tai prosessori. Description nimensä mukaisesti antaa lisätietoa laitteesta.  
+Listauksessa on nähtävissä ensimmäisenä H/W path, jolla viitataan laitteiston polkuun. Device kertoo mihin laitteeseen viitataan. Class määrittää laitteen tyypin tai luokan, esim. muisti tai prosessori. Description nimensä mukaisesti antaa lisätietoa laitteesta.  
 
 ![Screenshot 2025-01-26 142034](https://github.com/user-attachments/assets/e27675d7-f026-4fb7-b393-9e93dbaf689b)
 
