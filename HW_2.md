@@ -82,4 +82,4 @@ Listauksessa on nähtävissä ensimmäisenä h/w path, jolla viitataan laitteist
 Tero Karvinen: Command Line Basics Revisited. https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited  
 GeeksforGeeks. apt-get command in Linux with Examples. 17.6.2024. https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/  
 Micro-editor. https://micro-editor.github.io/  
-Phoenixnap. grep Command in Linux With Examples. https://phoenixnap.com/kb/grep-command-linux-unix-examples   
+Phoenixnap. grep Command in Linux With Examples. 29.2.2024. https://phoenixnap.com/kb/grep-command-linux-unix-examples   
