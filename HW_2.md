@@ -56,7 +56,7 @@ Lähde: https://terokarvinen.com/2009/command-line-basics-4/#important_directori
 
 ## d) grep
 
-Aloitin tehtävän 26.1.2025 klo. 11.32. Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Löytääkseen halutun tekstin syötin komennon: grep mandariini testfile2.txt, joka löysi halutun sanan kyseisestä tiedostosta. Tehtävä oli valmis klo. 12.40
+Aloitin tehtävän 26.1.2025 klo. 11.32. Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Löytääkseen halutun tekstin syötin komennon: grep mandariini testfile2.txt, joka löysi halutun sanan kyseisestä tiedostosta. Tehtävä oli valmis klo. 12.50
 
 ![Screenshot 2025-01-26 135724](https://github.com/user-attachments/assets/5c839e7f-8250-4bb3-82ab-0e3f06933b76)
 
