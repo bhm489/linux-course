@@ -10,7 +10,7 @@ Kopioin Githubin micro-editor asennus kohdasta asennukseen tarvittavan osoitteen
 
 Lähde: https://micro-editor.github.io/ 
 
-## b) APT 
+## b) apt
 
 Päätin asentaa ohjelmat, htop, cowsay ja cmatrix. Kaikki kolme ohjelmaa pystyi asentamaan helposti syöttämättä terminaaliin "sudo apt-get install htop cowsay cmatrix". 
 
@@ -46,13 +46,15 @@ System wide logs. Komennolla: ls /var/log/ sain esille viimeiset kansiot.
 
 Lähde: https://terokarvinen.com/2009/command-line-basics-4/#important_directories 
 
-## d)
+## d) grep
 
 Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Löytääkseen haetun tekstin syötin komennon: grep mandariini testfile2.txt joka löysi tämän sanan kyseisestä tiedostosta.  
 
 ![Screenshot 2025-01-26 135724](https://github.com/user-attachments/assets/5c839e7f-8250-4bb3-82ab-0e3f06933b76)
 
-## e)
+## e) pipe
+
+![Screenshot 2025-01-26 140207](https://github.com/user-attachments/assets/47d1b45b-9b2c-4c19-84b8-7ff263591054)
 
 ## f) 
 
