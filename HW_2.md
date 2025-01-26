@@ -26,7 +26,7 @@ Lähde: https://www.geeksforgeeks.org/apt-get-command-in-linux-with-examples/
 
 ## c) FHS
 
-Tehtävässä pyydetyt kansiot olivat / - Root directory. /home/ - Home directories for all users. /home/maria/ Home directory of user "maria". /etc/ - System wide settings. /media/ - Removable media. /var/log - System wide logs. (https://terokarvinen.com/2009/command-line-basics-4/#important_directories). 
+Tehtävässä pyydetyt kansiot olivat / - Root directory. /home/ - Home directories for all users. /home/maria/ Home directory of user "xxx". /etc/ - System wide settings. /media/ - Removable media. /var/log - System wide logs. (https://terokarvinen.com/2009/command-line-basics-4/#important_directories). 
 
 Root directory. Sain näkyviin syöttämällä terminaaliin: ls /  
 ![Screenshot 2025-01-25 180219](https://github.com/user-attachments/assets/ac258ad7-3899-44cd-84af-c685c05979b2)
@@ -47,6 +47,9 @@ System wide logs. Komennolla: ls /var/log/ sain esille viimeiset kansiot.
 Lähde: https://terokarvinen.com/2009/command-line-basics-4/#important_directories 
 
 ## d)
+
+Ensimmäiseksi tein uuden tiedoston tiedoilla persikka, mandariini ja mustikka. Grep käyttö eli joka näyttää haetun tekstin. Syötin komennon: grep mandariini testfile2.txt joka löysi tämän sanan kyseisestä tiedostosta.  
+![Screenshot 2025-01-26 134654](https://github.com/user-attachments/assets/c2d21074-54d5-413e-95df-9897d6c7ad34)
 
 ## e)
 
