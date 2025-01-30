@@ -20,6 +20,13 @@ a.
 
 ![image](https://github.com/user-attachments/assets/66a70a44-d23e-492d-ae14-06dc307059d5)
 
+b.
+
+c.
+
+e.
+
+f.
 
 ## Lähteet: 
 The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: https://httpd.apache.org/docs/2.4/vhosts/name-based.html  
