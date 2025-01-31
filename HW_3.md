@@ -1,5 +1,7 @@
 # Hello Web Server
 
+Koneeni oli Lenovo Yoga Pro 7 ja toimiva wifi-yhteys. 
+
 ## Name-Based Virtual Host Support
 
 Name-Based Virtual Host perustuu IP-pohjaiseen virtuaalipalvelimen valinta-algoritmiin. Oikean palvelimen nimeä etsitään virtuaalisten isäntien välillä, joilla on paras IP-osoite. On tärkeää ymmärtää, että ensimmäinen askel nimipohjaisessa virtuaaliisäntäresoluutiossa on IP-pohjainen resoluutio. 
@@ -21,6 +23,11 @@ a.
 ![image](https://github.com/user-attachments/assets/66a70a44-d23e-492d-ae14-06dc307059d5)
 
 b.
+
+![Screenshot 2025-01-31 160838](https://github.com/user-attachments/assets/caa3a17d-986c-4f4a-991c-59d18543d7df)
+
+
+![image](https://github.com/user-attachments/assets/a580bc32-48d5-4d24-b4d8-a69975df3e79)
 
 c.
 
