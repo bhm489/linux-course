@@ -20,14 +20,12 @@ Lähde: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-m
 
 a. 
 
-![image](https://github.com/user-attachments/assets/66a70a44-d23e-492d-ae14-06dc307059d5)
+Asensin Apache2 ja onnistunut asennus näkyi localhost osoitteessa:  
+![Screenshot 2025-01-31 160838](https://github.com/user-attachments/assets/caa3a17d-986c-4f4a-991c-59d18543d7df)
 
 b.
 
-![Screenshot 2025-01-31 160838](https://github.com/user-attachments/assets/caa3a17d-986c-4f4a-991c-59d18543d7df)
-
-
-![image](https://github.com/user-attachments/assets/a580bc32-48d5-4d24-b4d8-a69975df3e79)
+![image](https://github.com/user-attachments/assets/ec01af9e-046b-4bf5-9e01-71f364eebf0f)
 
 c.
 
