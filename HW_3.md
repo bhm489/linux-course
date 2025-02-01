@@ -38,13 +38,16 @@ Rivien analysointi:
 6. 407 - Virhe
 7. "Mozilla/5.0 (XII: Linux x86_64: rv: 128.0) - Käytetään Mozilla selainta
 
+e. 
 
-c.
+![image](https://github.com/user-attachments/assets/060c1387-5003-4d75-a889-12b79fafbf3c)
 
-
-e.
+Lähde: https://www.youtube.com/watch?v=jp4UHtnNfgM  
 
 f.
+
+![image](https://github.com/user-attachments/assets/c453f99b-6244-428e-83c0-84668700b583)
+
 
 ## Lähteet: 
 The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 Documentation: https://httpd.apache.org/docs/2.4/vhosts/name-based.html  
