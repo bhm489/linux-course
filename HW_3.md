@@ -63,8 +63,8 @@ Curl -I hakee HTTP otsakkeet, ilman itse sivun sisältöä. Pelkkä Curl hakee k
 
 Curl -I. Muutama otsake selitetty: 
 
-HTTP/1.1 200 OK - tarkoittaa, että pyyntö onnistui. 
-Date: Sat, 01 Feb 2025 14:10:57 GMT - Aikaleima, jolloin palvelin vastasi pyyntöön. 
+HTTP/1.1 200 OK - tarkoittaa, että pyyntö onnistui.   
+Date: Sat, 01 Feb 2025 14:10:57 GMT - Aikaleima, jolloin palvelin vastasi pyyntöön.   
 Server: Apache/2.4.62 (Debian) - Kertoo että palvelimena on Apache ja numero kertoo, että mikä versio on käytössä. 
 
 ![image](https://github.com/user-attachments/assets/c453f99b-6244-428e-83c0-84668700b583)
