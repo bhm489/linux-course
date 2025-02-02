@@ -47,8 +47,8 @@ Lähde: https://www.sumologic.com/blog/apache-access-log/
 
 ## Etusivu
 
-Sijoitin HTML tiedoston hakemistoon -- > /var/www/html/index.html. Kirjoitin html koodiin sen mitä halusin näkyvän sivustolla. 
-![Screenshot 2025-02-01 102427](https://github.com/user-attachments/assets/b6a995e9-82ff-445a-9ca1-e382449828dc)
+Sijoitin HTML tiedoston hakemistoon -- > /var/www/html/index.html. Kirjoitin html koodiin sen mitä halusin näkyvän sivustolla.   
+![image](https://github.com/user-attachments/assets/2c093072-49c6-4a2d-b2c7-41e1d7f1135c)
 
 Käynnistin apachen uudestaan, että varmasti toimisi --> sudo systemctl restart apache2 
 ![image](https://github.com/user-attachments/assets/060c1387-5003-4d75-a889-12b79fafbf3c)
