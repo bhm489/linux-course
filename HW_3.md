@@ -22,7 +22,7 @@ Lähde: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-m
 
 ## Apache asennus 
 
-Asensin Apache2 ja onnistunut asennus näkyi localhost osoitteessa: 
+Asensin Apache2 ja onnistunut asennus näkyi selaimessa http://localhost osoitteessa: 
 
 ![Screenshot 2025-01-31 160838](https://github.com/user-attachments/assets/caa3a17d-986c-4f4a-991c-59d18543d7df)  
 
@@ -30,10 +30,10 @@ Tähän kohtaan aikaa kului noin 10 min.
 
 ## Loki
 
-Lokissa näkyvät rivit: 
+Lokissa näkyvät rivit:   
 ![image](https://github.com/user-attachments/assets/ec01af9e-046b-4bf5-9e01-71f364eebf0f)
 
-Rivien analysointi: 
+Rivien analysointi:   
 1. 127.0.0.1 - Tarkoittaa asiakkaan IP-osoitetta, jolta pyynty tuli. 
 2. [31/Jan/2025:14:08:52 + 0200] - Aikaleima, jolloin pyyntö on tehty. 
 3. "GET /favicon.ico HTTP/1.1"- HTTP pyyntö. GET - asiakas haluaa ladata sivun. 
