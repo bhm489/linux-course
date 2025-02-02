@@ -35,12 +35,11 @@ Lokissa näkyvät rivit:
 
 Rivien analysointi:   
 1. 127.0.0.1 - Tarkoittaa asiakkaan IP-osoitetta, jolta pyynty tuli. 
-2. [31/Jan/2025:14:08:52 + 0200] - Aikaleima, jolloin pyyntö on tehty. 
-3. "GET /favicon.ico HTTP/1.1"- HTTP pyyntö. GET - asiakas haluaa ladata sivun. 
-4. "http://localhost/" - Tieto mistä sivulta asiakas tuli.
-5. 404 - Sivua ei löytynyt palvelimenta, koska sitä ei ole vielä tehty
-6. 407 - Virhe
-7. "Mozilla/5.0 (XII: Linux x86_64: rv: 128.0) - Käytetään Mozilla selainta
+2. [31/Jan/2025:16:08:26 + 0200] - Aikaleima, jolloin pyyntö on tehty. 
+3. "GET / HTTP/1.1"- HTTP pyyntö joka lähetettiin palvelimelle. GET - asiakas haluaa ladata sivun.
+4. 200 - pyyntö onnistui
+5. 3380 - tiedoston koko
+6. "Mozilla/5.0 (XII: Linux x86_64: rv: 128.0) Gecko/2010 0101 Firefox/128.0"- Kertoo mitä laitetta ja selainta asiakas käyttää.
 
 Tässä vaiheessa aikaa kului 45min. 
 
