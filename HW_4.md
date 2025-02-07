@@ -2,6 +2,8 @@
 
 ## x)
 
+### Teoriasta käytäntöön pilvipalvelimen avulla
+
 a. Vuokrattu domainnimi osoittaa palvelimeen. Tässä voi hyödyntää myös Github Education pakettia, jossa palvelimen ja domainnimen saa käyttöö ilmaiseksi.
 
 d. Palomuuri asennetaan komennolla $ sudo apt-get install ufw. Tämän jälkeen voidaan tehdä reikä palomuuriin porttia varten.
@@ -12,7 +14,7 @@ f. Kaikki palvelimen ohjelmat on päivitettävä. Avataan terminaali, ja SSH- yh
 
 Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
 
-Ensimmäiset vaiheet uudessa virtuaalisessa yksityispalvelimessa
+### Ensimmäiset vaiheet uudessa virtuaalisessa yksityispalvelimessa
 
 - Muista aina hyvä salasana.
 - Vaiheet:
@@ -29,13 +31,13 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 ## a. Vuokraa oma virtuaalipalvelin
 
 klo. 17.11 
+Vuokrasin oman virtuaalipalvelimen Upcloudista. Tein käyttäjän.
 
 ![image](https://github.com/user-attachments/assets/676c1e7f-6bc1-45f0-9ebb-6ca7c0251d58)
 
 klo. 17.45
 
 ## b. Alkutoimet
-
 
 klo. 17.50
 
