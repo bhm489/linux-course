@@ -38,7 +38,7 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 
 Vuokratakseni oman virtuaalipalvelimen Upcloudista ensimmäiseksi loin uuden käyttäjän. Server-kohdasta aloin täyttämään palvelimelle haluttuja tietoja.
 
-Loin SSH-avaimen terminaalissa komennoilla:
+Loin SSH-avaimen terminaalissa komennoilla:    
     - sudo apt-get install openssh-client
     - ssh-keygen
    
