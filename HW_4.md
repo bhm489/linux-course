@@ -35,17 +35,23 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 ## a) Vuokraa oma virtuaalipalvelin
 
 #### Aloitus 6.2.2025 klo. 17.11 
-Vuokrasin oman virtuaalipalvelimen Upcloudista. Ensimmäiseksi tein uuden käyttäjän. 
+
+Vuokratakseni oman virtuaalipalvelimen Upcloudista ensimmäiseksi loin uuden käyttäjän. 
+
 Loin SSH-avaimen terminaalissa komennoilla:
 
     - sudo apt-get install openssh-client
     - ssh-keygen
     
-Kopioin SSH avaimen terminaalista ja syötin sen palvelimen tietoihin. Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.  
+Kopioin SSH avaimen terminaalista ja syötin sen kohtaan palvelimen tietoihin. 
+
+![image](https://github.com/user-attachments/assets/d93d4656-596e-41a6-9606-8be6ec5d7b42)
+
+Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.  
 
 ![image](https://github.com/user-attachments/assets/676c1e7f-6bc1-45f0-9ebb-6ca7c0251d58)
 
-#### Lopetus klo. 17.45 Tähän vaiheeseen kului 26 min.
+#### Lopetus klo. 17.45 Tähän vaiheeseen kului 34 min.
 
 ## b) Alkutoimet (tulimuuri, root-tunnus kiinni, ohjelmien päivitys)
 
