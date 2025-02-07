@@ -59,7 +59,7 @@ Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.
 
 ### Uusi käyttäjä, sudo-oikeudet
 
-Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
+Loin uuden käyttäjän, jolle lisäsin sudo-oikeudet. 
 
 Komennoilla: 
 
