@@ -97,27 +97,30 @@ Päivityksissä kesti noin minuutti.
 
 ![image](https://github.com/user-attachments/assets/ca8d9b44-e997-4541-83a4-e2ad4d953b34)
 
-#### Lopetus klo. 19.35 Tähän vaiheeseen aikaa kului 1.45 h
+#### Lopetus klo. 19.35, b vaiheeseen aikaa kului 1.45 h
 
 ## c) Asenna weppipalvelin omalle virtuaalipalvelimellesi
 
-#### Aloitus  klo. 12.05 
+#### Aloitus 7.2.2025 klo. 12.05 
+
 Asensin Apachen: 
     -sudo apt-get install apache2
+    
 Tein reiän tulimuuriin komennolla: 
     -sudo utf allow 80/tcp
+    
 Yksinkertainen teksti, joka näkyisi sivulla: 
     -echo hei nyt on perjantai!
     -echo hei nyt on perjantai! | sudo tee /var/www/html/index.html
 
 ![image](https://github.com/user-attachments/assets/f5ce7d81-76ee-4db0-91fb-289b17dc2292)
 
-Tarkastin että teksti näkyy sivulla oikein: 
+Tarkastin, että teksti näkyy sivulla oikein: 
 
 ![image](https://github.com/user-attachments/assets/7f8b784b-cb42-4636-8635-5ad1017974f6)
 
-#### klo. 12.24
+#### Lopetus klo. 12.24, tässä vaiheessa kesti 19 min
 
 ## Lähteet: 
-Susanna Lehto, 14.2.2022. Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
+Susanna Lehto, 14.2.2022. Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/      
 Tero Karvinen, 19.9.2017. First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS.    https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/  
