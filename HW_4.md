@@ -38,7 +38,8 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 
 Vuokratakseni oman virtuaalipalvelimen Upcloudista ensimmäiseksi loin uuden käyttäjän. Server-kohdasta aloin täyttämään palvelimelle haluttuja tietoja.
 
-Loin SSH-avaimen terminaalissa komennoilla:    
+Loin SSH-avaimen terminaalissa komennoilla:
+
     - sudo apt-get install openssh-client    
     - ssh-keygen
    
@@ -61,6 +62,7 @@ Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.
 Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
 
 Komennoilla: 
+
     - sudo adduser marianne
     - sudo adduser marianne sudo
 
@@ -74,6 +76,7 @@ Komennoilla:
 
 Varmistin, että käyttäjä on lisätty oikein sudo ryhmään, ennenkun lukitsin root- tunnuksen.
 Lukitsin root tunnuksen komennoilla: 
+
     - sudo usermod --lock root
     - sudo rm /root/.ssh -r
 
@@ -86,14 +89,17 @@ Valmistin, että se on lukittu oikein.
 ### Tulimuuri
 
 Ensiksi päivitin ohjelmat:
+
     - sudo apt-get update
     
 Sitten asensin tulimuurin komennolla:
+
     - sudo apt-get install ufw
 
 ![image](https://github.com/user-attachments/assets/8b70d0bc-a8df-4d35-a55f-531ec219b090)
 
 Tein reiän tulimuuriin komennoilla: 
+
     -sudo ufw allow 22/tcp
     -sudo utw enable
     
@@ -104,7 +110,9 @@ Tein reiän tulimuuriin komennoilla:
 ### Pakettien päivitys 
 
 Päivitin ohjelmat komennolla:
+
     - sudo apt-get dist-upgrade. 
+    
 Päivityksissä kesti noin minuutti. 
 
 ![image](https://github.com/user-attachments/assets/ca8d9b44-e997-4541-83a4-e2ad4d953b34)
@@ -116,12 +124,15 @@ Päivityksissä kesti noin minuutti.
 #### Aloitus 7.2.2025 klo. 12.05 
 
 Asensin Apachen: 
+
     -sudo apt-get install apache2
     
 Tein reiän tulimuuriin komennolla: 
+
     -sudo utf allow 80/tcp
     
 Yksinkertainen teksti, joka näkyisi sivulla: 
+
     -echo hei nyt on perjantai!
     -echo hei nyt on perjantai! | sudo tee /var/www/html/index.html
 
