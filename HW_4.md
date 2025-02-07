@@ -92,12 +92,12 @@ Ensiksi päivitin ohjelmat:
 
     - sudo apt-get update
     
+![image](https://github.com/user-attachments/assets/8b70d0bc-a8df-4d35-a55f-531ec219b090)
+
 Sitten asensin tulimuurin komennolla:
 
     - sudo apt-get install ufw
-
-![image](https://github.com/user-attachments/assets/8b70d0bc-a8df-4d35-a55f-531ec219b090)
-
+    
 Tein reiän tulimuuriin komennoilla: 
 
     -sudo ufw allow 22/tcp
