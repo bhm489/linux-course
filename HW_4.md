@@ -39,24 +39,34 @@ klo. 17.45
 
 klo. 17.50
 
-Loin uuden käyttäjän Lisäsin käyttäjälle sudo oikeudet. 
+Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
+
 ![image](https://github.com/user-attachments/assets/a497e63f-7f70-45dc-8caa-f17a70ab9f6e)
+
 ![image](https://github.com/user-attachments/assets/7b0d82a2-aee1-48a6-a5f7-6dd5aa813550)
+
 ![image](https://github.com/user-attachments/assets/dc1a74dc-cebf-414b-8ac4-fd2975975f18)
 
 klo. 18.32 
 
 Varmistin että käyttäjä on lisätty oikein sudo ryhmään, ennenkun suljen root- tunnuksen. 
+
 ![image](https://github.com/user-attachments/assets/c847e4e1-9400-430f-a04b-2bcb277c22aa)
 
 Suljin root tunnuksen ja valmistin että se on suljettu oikein. 
+
 ![image](https://github.com/user-attachments/assets/7259eb36-3689-4b3b-99a5-7eb8e0150f56)
 
 ### Tulimuuri
 
-Ensiksi asensin päivityksen ja asennunsin tulimuurin komennolla: Sudo apt-get 
+Ensiksi päivitin ja asensin tulimuurin komennolla: sudo apt-get install ufw
+
 ![image](https://github.com/user-attachments/assets/8b70d0bc-a8df-4d35-a55f-531ec219b090)
 
+Tein reijän tulimuuriin komennoilla 
+    -sudo ufw allow 22/tcp
+    -sudo utw enable
+    
 ![image](https://github.com/user-attachments/assets/4e719d10-907d-4731-bc44-adf41d20183f)
 
 ![image](https://github.com/user-attachments/assets/f58296a0-0907-43ae-81cc-5606db3dff8f)
