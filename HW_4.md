@@ -30,8 +30,14 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 
 ## a. Vuokraa oma virtuaalipalvelin
 
-klo. 17.11 
-Vuokrasin oman virtuaalipalvelimen Upcloudista. Tein käyttäjän.
+#### klo. 17.11 
+Vuokrasin oman virtuaalipalvelimen Upcloudista. Ensimmäiseksi tein uuden käyttäjän. 
+Loin SSH-avaimen terminaalissa komennoilla:
+
+    - sudo apt-get install openssh-client
+    - ssh-keygen
+    
+Kopioin SSH avaimen terminaalista ja syötin sen palvelimen tietoihin. Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis. Tähän vaiheeseen kului 31 min. 
 
 ![image](https://github.com/user-attachments/assets/676c1e7f-6bc1-45f0-9ebb-6ca7c0251d58)
 
@@ -82,13 +88,22 @@ Päivitin ohjelmat komennolla: sudo apt-get dist-upgrade. Päivityksissä kesti 
 
 ## c. Asenna weppipalvelin omalle virtuaalipalvelimellesi
 
+klo. 12. 05 
+Asensin Apachen: 
+    -sudo apt-get install apache2
+Tein reijän tulimuuriin komennolla: 
+  -sudo utf allow 80/tcp
+
+![image](https://github.com/user-attachments/assets/f5ce7d81-76ee-4db0-91fb-289b17dc2292)
+
+Testisivun poisto: 
+
+![image](https://github.com/user-attachments/assets/7f8b784b-cb42-4636-8635-5ad1017974f6)
 
 ## d. Omalle julkiselle palvelimellesi uusi Name Based Virtual Host
 
 
 
-
-
-Lähteet: 
+## Lähteet: 
 Susanna Lehto, 14.2.2022. Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
 Tero Karvinen, 19.9.2017. First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS.    https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/  
