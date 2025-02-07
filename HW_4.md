@@ -6,7 +6,7 @@
 
 a. Vuokrattu domainnimi osoittaa palvelimeen. Tässä voi hyödyntää myös Github Education pakettia, jossa palvelimen ja domainnimen saa käyttöö ilmaiseksi.
 
-d. Palomuuri asennetaan komennolla $ sudo apt-get install ufw. Tämän jälkeen voidaan tehdä reikä palomuuriin porttia varten.
+d. Palomuuri asennetaan komennolla: sudo apt-get install ufw. Tämän jälkeen voidaan tehdä reikä palomuuriin porttia varten.
 
 e. Käyttäjälle on tärkeää keksiä hyvä salasana. Käyttäjästä tehdään pääkäyttäjä. 
 
@@ -16,35 +16,42 @@ Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla
 
 ### Ensimmäiset vaiheet uudessa virtuaalisessa yksityispalvelimessa
 
-- Muista aina hyvä salasana.
-- Ensimmäisen vaiheet:
-    - luo uusi virtuaalipalvelin
-    - palomuuri
-    - sudo käyttäjä
-    - sulje juuri tili
-    - päivitä ohjelmisto
-    - aloita käyttö
-    - julkinen DNS-nimi NameCheapissa
+    - Muista aina hyvä salasana
+    - Ensimmäisen vaiheet:
+        - luo uusi virtuaalipalvelin
+        - palomuuri
+        - sudo käyttäjä
+        - sulje juuri tili
+        - päivitä ohjelmisto
+        - aloita käyttö
+        - julkinen DNS-nimi NameCheapissa
  
 Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 
+## Laitteeni 
+    - Lenovo Yoga Pro 7
+    - AMD Ryzen Prosessori
+
 ## a) Vuokraa oma virtuaalipalvelin
 
-#### klo. 17.11 
+#### Aloitus 6.2.2025 klo. 17.11 
 Vuokrasin oman virtuaalipalvelimen Upcloudista. Ensimmäiseksi tein uuden käyttäjän. 
 Loin SSH-avaimen terminaalissa komennoilla:
 
     - sudo apt-get install openssh-client
     - ssh-keygen
     
-Kopioin SSH avaimen terminaalista ja syötin sen palvelimen tietoihin. Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis. Tähän vaiheeseen kului 31 min. 
+Kopioin SSH avaimen terminaalista ja syötin sen palvelimen tietoihin. Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.  
 
-#### klo. 17.45
 ![image](https://github.com/user-attachments/assets/676c1e7f-6bc1-45f0-9ebb-6ca7c0251d58)
 
-## b) Alkutoimet
+#### Lopetus klo. 17.45 Tähän vaiheeseen kului 26 min.
 
-#### klo. 17.50
+## b) Alkutoimet (tulimuuri, root-tunnus kiinni, ohjelmien päivitys)
+
+#### Aloitus klo. 17.50
+
+### Uusi käyttäjä, sudo-oikeudet
 
 Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
 
@@ -54,23 +61,27 @@ Loin uuden käyttäjän, jolle lisäsin sudo oikeudet.
 
 ![image](https://github.com/user-attachments/assets/dc1a74dc-cebf-414b-8ac4-fd2975975f18)
 
-#### klo. 18.32 
+### Root-tunnuksen lukitseminen
 
-Varmistin että käyttäjä on lisätty oikein sudo ryhmään, ennenkun suljen root- tunnuksen. 
+Varmistin että käyttäjä on lisätty oikein sudo ryhmään, ennenkun lukitsin root- tunnuksen. 
 
 ![image](https://github.com/user-attachments/assets/c847e4e1-9400-430f-a04b-2bcb277c22aa)
 
-Suljin root tunnuksen ja valmistin että se on suljettu oikein. 
+Lukitsin root tunnuksen ja valmistin, että se on lukittu oikein. 
 
 ![image](https://github.com/user-attachments/assets/7259eb36-3689-4b3b-99a5-7eb8e0150f56)
 
 ### Tulimuuri
 
-Ensiksi päivitin ja asensin tulimuurin komennolla: sudo apt-get install ufw
+Ensiksi päivitin ohjelmat:
+    - sudo apt-get update
+    
+Sitten asensin tulimuurin komennolla:
+    - sudo apt-get install ufw
 
 ![image](https://github.com/user-attachments/assets/8b70d0bc-a8df-4d35-a55f-531ec219b090)
 
-Tein reijän tulimuuriin komennoilla 
+Tein reiän tulimuuriin komennoilla: 
     -sudo ufw allow 22/tcp
     -sudo utw enable
     
@@ -80,14 +91,17 @@ Tein reijän tulimuuriin komennoilla
 
 ### Pakettien päivitys 
 
-Päivitin ohjelmat komennolla: sudo apt-get dist-upgrade. Päivityksissä kesti noin minuutti. 
+Päivitin ohjelmat komennolla:
+    - sudo apt-get dist-upgrade. 
+Päivityksissä kesti noin minuutti. 
 
 ![image](https://github.com/user-attachments/assets/ca8d9b44-e997-4541-83a4-e2ad4d953b34)
 
+#### Lopetus klo. 19.35 Tähän vaiheeseen aikaa kului 1.45 h
 
 ## c) Asenna weppipalvelin omalle virtuaalipalvelimellesi
 
-#### klo. 12.05 
+#### Aloitus  klo. 12.05 
 Asensin Apachen: 
     -sudo apt-get install apache2
 Tein reiän tulimuuriin komennolla: 
