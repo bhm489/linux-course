@@ -98,13 +98,13 @@ Sitten asensin tulimuurin komennolla:
 
     - sudo apt-get install ufw
     
+![image](https://github.com/user-attachments/assets/4e719d10-907d-4731-bc44-adf41d20183f)
+
 Tein reiän tulimuuriin komennoilla: 
 
     -sudo ufw allow 22/tcp
     -sudo utw enable
     
-![image](https://github.com/user-attachments/assets/4e719d10-907d-4731-bc44-adf41d20183f)
-
 ![image](https://github.com/user-attachments/assets/f58296a0-0907-43ae-81cc-5606db3dff8f)
 
 ### Pakettien päivitys 
