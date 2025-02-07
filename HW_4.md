@@ -103,7 +103,7 @@ Sitten asensin palomuurin komennolla:
 Tein reiän palomuuriin komennoilla: 
 
     -sudo ufw allow 22/tcp
-    -sudo utw enable
+    -sudo ufw enable
     
 ![image](https://github.com/user-attachments/assets/f58296a0-0907-43ae-81cc-5606db3dff8f)
 
