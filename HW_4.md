@@ -47,7 +47,7 @@ Loin uuden käyttäjän Lisäsin käyttäjälle sudo oikeudet.
 klo. 18.32 
 
 Varmistin että käyttäjä on lisätty oikein sudo ryhmään, ennenkun suljen root- tunnuksen. 
-[image](https://github.com/user-attachments/assets/c847e4e1-9400-430f-a04b-2bcb277c22aa)
+![image](https://github.com/user-attachments/assets/c847e4e1-9400-430f-a04b-2bcb277c22aa)
 
 Suljin root tunnuksen ja valmistin että se on suljettu oikein. 
 ![image](https://github.com/user-attachments/assets/7259eb36-3689-4b3b-99a5-7eb8e0150f56)
