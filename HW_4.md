@@ -127,6 +127,8 @@ Asensin Apachen:
 
     -sudo apt-get install apache2
     
+![image](https://github.com/user-attachments/assets/f5ce7d81-76ee-4db0-91fb-289b17dc2292)
+
 Tein reiän palomuuriin komennolla: 
 
     -sudo utf allow 80/tcp
@@ -135,8 +137,6 @@ Yksinkertainen teksti, joka näkyisi sivulla:
 
     -echo hei nyt on perjantai!
     -echo hei nyt on perjantai! | sudo tee /var/www/html/index.html
-
-![image](https://github.com/user-attachments/assets/f5ce7d81-76ee-4db0-91fb-289b17dc2292)
 
 Tarkastin, että teksti näkyy sivulla oikein: 
 
