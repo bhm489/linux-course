@@ -28,7 +28,7 @@ Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla
  
 Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 
-## a. Vuokraa oma virtuaalipalvelin
+## a) Vuokraa oma virtuaalipalvelin
 
 #### klo. 17.11 
 Vuokrasin oman virtuaalipalvelimen Upcloudista. Ensimmäiseksi tein uuden käyttäjän. 
@@ -91,18 +91,17 @@ Päivitin ohjelmat komennolla: sudo apt-get dist-upgrade. Päivityksissä kesti 
 klo. 12. 05 
 Asensin Apachen: 
     -sudo apt-get install apache2
-Tein reijän tulimuuriin komennolla: 
-  -sudo utf allow 80/tcp
+Tein reiän tulimuuriin komennolla: 
+    -sudo utf allow 80/tcp
+Yksinkertainen teksti, joka näkyisi sivulla: 
+    -echo hei nyt on perjantai!
+    -echo hei nyt on perjantai! | sudo tee /var/www/html/index.html
 
 ![image](https://github.com/user-attachments/assets/f5ce7d81-76ee-4db0-91fb-289b17dc2292)
 
-Testisivun poisto: 
+Korvasin testisivun yksinkertaisella tekstillä: 
 
 ![image](https://github.com/user-attachments/assets/7f8b784b-cb42-4636-8635-5ad1017974f6)
-
-## d. Omalle julkiselle palvelimellesi uusi Name Based Virtual Host
-
-
 
 ## Lähteet: 
 Susanna Lehto, 14.2.2022. Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
