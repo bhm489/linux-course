@@ -1,4 +1,4 @@
-# Maailma kuulee
+# Maailma kuulee h4
 
 ## x)
 
@@ -17,7 +17,7 @@ Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla
 ### Ensimmäiset vaiheet uudessa virtuaalisessa yksityispalvelimessa
 
 - Muista aina hyvä salasana.
-- Vaiheet:
+- Ensimmäisen vaiheet:
     - luo uusi virtuaalipalvelin
     - palomuuri
     - sudo käyttäjä
@@ -39,13 +39,12 @@ Loin SSH-avaimen terminaalissa komennoilla:
     
 Kopioin SSH avaimen terminaalista ja syötin sen palvelimen tietoihin. Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis. Tähän vaiheeseen kului 31 min. 
 
+#### klo. 17.45
 ![image](https://github.com/user-attachments/assets/676c1e7f-6bc1-45f0-9ebb-6ca7c0251d58)
 
-klo. 17.45
+## b) Alkutoimet
 
-## b. Alkutoimet
-
-klo. 17.50
+#### klo. 17.50
 
 Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
 
@@ -55,7 +54,7 @@ Loin uuden käyttäjän, jolle lisäsin sudo oikeudet.
 
 ![image](https://github.com/user-attachments/assets/dc1a74dc-cebf-414b-8ac4-fd2975975f18)
 
-klo. 18.32 
+#### klo. 18.32 
 
 Varmistin että käyttäjä on lisätty oikein sudo ryhmään, ennenkun suljen root- tunnuksen. 
 
@@ -86,9 +85,9 @@ Päivitin ohjelmat komennolla: sudo apt-get dist-upgrade. Päivityksissä kesti 
 ![image](https://github.com/user-attachments/assets/ca8d9b44-e997-4541-83a4-e2ad4d953b34)
 
 
-## c. Asenna weppipalvelin omalle virtuaalipalvelimellesi
+## c) Asenna weppipalvelin omalle virtuaalipalvelimellesi
 
-klo. 12. 05 
+#### klo. 12.05 
 Asensin Apachen: 
     -sudo apt-get install apache2
 Tein reiän tulimuuriin komennolla: 
@@ -99,9 +98,11 @@ Yksinkertainen teksti, joka näkyisi sivulla:
 
 ![image](https://github.com/user-attachments/assets/f5ce7d81-76ee-4db0-91fb-289b17dc2292)
 
-Korvasin testisivun yksinkertaisella tekstillä: 
+Tarkastin että teksti näkyy sivulla oikein: 
 
 ![image](https://github.com/user-attachments/assets/7f8b784b-cb42-4636-8635-5ad1017974f6)
+
+#### klo. 12.24
 
 ## Lähteet: 
 Susanna Lehto, 14.2.2022. Teoriasta käytäntöön pilvipalvelimen avulla. https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/  
