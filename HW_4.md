@@ -4,7 +4,7 @@
 
 ### Teoriasta käytäntöön pilvipalvelimen avulla
 
-a. Vuokrattu domainnimi osoittaa palvelimeen. Tässä voi hyödyntää myös Github Education pakettia, jossa palvelimen ja domainnimen saa käyttöö ilmaiseksi.
+a. Vuokrattu domainnimi osoittaa palvelimeen. Tässä voi hyödyntää myös Github Education pakettia, jossa palvelimen ja domainnimen saa käyttöön ilmaiseksi.
 
 d. Palomuuri asennetaan komennolla: sudo apt-get install ufw. Tämän jälkeen voidaan tehdä reikä palomuuriin porttia varten.
 
@@ -17,7 +17,7 @@ Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla
 ### Ensimmäiset vaiheet uudessa virtuaalisessa yksityispalvelimessa
 
     - Muista aina hyvä salasana
-    - Ensimmäisen vaiheet:
+    - Vaiheet:
         - luo uusi virtuaalipalvelin
         - palomuuri
         - sudo käyttäjä
@@ -36,14 +36,14 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 
 #### Aloitus 6.2.2025 klo. 17.11 
 
-Vuokratakseni oman virtuaalipalvelimen Upcloudista ensimmäiseksi loin uuden käyttäjän. 
+Vuokratakseni oman virtuaalipalvelimen Upcloudista ensimmäiseksi loin uuden käyttäjän. Server-kohdasta aloin täyttämään palvelimelle haluttuja tietoja.
 
 Loin SSH-avaimen terminaalissa komennoilla:
 
     - sudo apt-get install openssh-client
     - ssh-keygen
-    
-Kopioin SSH avaimen terminaalista ja syötin sen kohtaan palvelimen tietoihin. 
+   
+Kopioin SSH avaimen terminaalista ja syötin sen SSH-avaimen kohtaan. 
 
 ![image](https://github.com/user-attachments/assets/d93d4656-596e-41a6-9606-8be6ec5d7b42)
 
@@ -69,7 +69,7 @@ Loin uuden käyttäjän, jolle lisäsin sudo oikeudet.
 
 ### Root-tunnuksen lukitseminen
 
-Varmistin että käyttäjä on lisätty oikein sudo ryhmään, ennenkun lukitsin root- tunnuksen. 
+Varmistin, että käyttäjä on lisätty oikein sudo ryhmään, ennenkun lukitsin root- tunnuksen. 
 
 ![image](https://github.com/user-attachments/assets/c847e4e1-9400-430f-a04b-2bcb277c22aa)
 
