@@ -61,6 +61,11 @@ Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.
 
 Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
 
+Komennoilla: 
+
+    - sudo adduser marianne
+    - sudo adduser marianne sudo
+
 ![image](https://github.com/user-attachments/assets/a497e63f-7f70-45dc-8caa-f17a70ab9f6e)
 
 ![image](https://github.com/user-attachments/assets/7b0d82a2-aee1-48a6-a5f7-6dd5aa813550)
