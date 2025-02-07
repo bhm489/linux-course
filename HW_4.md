@@ -39,7 +39,6 @@ Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-serve
 Vuokratakseni oman virtuaalipalvelimen Upcloudista ensimmäiseksi loin uuden käyttäjän. Server-kohdasta aloin täyttämään palvelimelle haluttuja tietoja.
 
 Loin SSH-avaimen terminaalissa komennoilla:
-
     - sudo apt-get install openssh-client
     - ssh-keygen
    
@@ -62,7 +61,6 @@ Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.
 Loin uuden käyttäjän, jolle lisäsin sudo oikeudet. 
 
 Komennoilla: 
-
     - sudo adduser marianne
     - sudo adduser marianne sudo
 
@@ -74,11 +72,14 @@ Komennoilla:
 
 ### Root-tunnuksen lukitseminen
 
-Varmistin, että käyttäjä on lisätty oikein sudo ryhmään, ennenkun lukitsin root- tunnuksen. 
+Varmistin, että käyttäjä on lisätty oikein sudo ryhmään, ennenkun lukitsin root- tunnuksen.
+Lukitsin root tunnuksen komennoilla: 
+    - sudo usermod --lock root
+    - sudo rm /root/.ssh -r
 
 ![image](https://github.com/user-attachments/assets/c847e4e1-9400-430f-a04b-2bcb277c22aa)
 
-Lukitsin root tunnuksen ja valmistin, että se on lukittu oikein. 
+Valmistin, että se on lukittu oikein. 
 
 ![image](https://github.com/user-attachments/assets/7259eb36-3689-4b3b-99a5-7eb8e0150f56)
 
