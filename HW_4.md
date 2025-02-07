@@ -53,7 +53,7 @@ Viimeiseksi painoin Deploy, ja sitten vuokraus oli valmis.
 
 #### Lopetus klo. 17.45 Tähän vaiheeseen kului 34 min.
 
-## b) Alkutoimet (tulimuuri, root-tunnus kiinni, ohjelmien päivitys)
+## b) Alkutoimet (palomuuri, root-tunnus kiinni, ohjelmien päivitys)
 
 #### Aloitus klo. 17.50
 
@@ -86,7 +86,7 @@ Valmistin, että se on lukittu oikein.
 
 ![image](https://github.com/user-attachments/assets/7259eb36-3689-4b3b-99a5-7eb8e0150f56)
 
-### Tulimuuri
+### Palomuuri
 
 Ensiksi päivitin ohjelmat:
 
@@ -94,13 +94,13 @@ Ensiksi päivitin ohjelmat:
     
 ![image](https://github.com/user-attachments/assets/8b70d0bc-a8df-4d35-a55f-531ec219b090)
 
-Sitten asensin tulimuurin komennolla:
+Sitten asensin palomuurin komennolla:
 
     - sudo apt-get install ufw
     
 ![image](https://github.com/user-attachments/assets/4e719d10-907d-4731-bc44-adf41d20183f)
 
-Tein reiän tulimuuriin komennoilla: 
+Tein reiän palomuuriin komennoilla: 
 
     -sudo ufw allow 22/tcp
     -sudo utw enable
@@ -127,7 +127,7 @@ Asensin Apachen:
 
     -sudo apt-get install apache2
     
-Tein reiän tulimuuriin komennolla: 
+Tein reiän palomuuriin komennolla: 
 
     -sudo utf allow 80/tcp
     
