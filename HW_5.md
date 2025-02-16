@@ -14,7 +14,7 @@ Seuraavaksi katsoin olisiko haluamani nimi vapaa. Pelkkä "taipale" ei ollut vap
 
 ![image](https://github.com/user-attachments/assets/a8394bc0-da1f-4a20-908b-0153667d7377)
 
-Muokatakseen asetuksia klikkasin manage kohtaa 
+Muokatakseen asetuksia klikkasin manage kohtaa. 
 ![image](https://github.com/user-attachments/assets/75e632af-c201-4e98-9ddc-08a72a575617)
 
 ![image](https://github.com/user-attachments/assets/d2305440-c94a-4c5d-8d1b-62e0ea0ec7d4)
