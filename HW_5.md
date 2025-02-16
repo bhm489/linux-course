@@ -23,6 +23,8 @@ Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin 
 
 ![image](https://github.com/user-attachments/assets/82960c0b-579f-499a-b2ef-477ab29cc838)
 
+### @ ja www
+
 ![image](https://github.com/user-attachments/assets/434f324e-1d22-4c1a-9d7d-291961296fbf)
 
 
