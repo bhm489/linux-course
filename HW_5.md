@@ -27,6 +27,9 @@ Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin 
 
 ![image](https://github.com/user-attachments/assets/434f324e-1d22-4c1a-9d7d-291961296fbf)
 
+Kävin katsomassa näkyykö osoitteessa mariannetaipale.com minun aikaisemmin tehty sivu ja teksti ja kyllä näkyi. 
+
+![image](https://github.com/user-attachments/assets/46da410b-621b-429d-9c31-bcc5e4ac3cf3)
 
 
 ## c) Kotisivu
