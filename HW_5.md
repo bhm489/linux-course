@@ -58,6 +58,19 @@ Annoin tälle ugo+x oikeudet, eli suoritusoikeudet kaikille tiedoston ryhmälle,
 Lähde: https://cets.seas.upenn.edu/answers/chmod.html 
 
 ## c) Kotisivu
+#### 20.2.2025 klo. 11.30
+
+### index.html 
+
+ ![image](https://github.com/user-attachments/assets/489b742e-bde0-4cb4-8ef4-b2115edd015b)
+
+ Avasin micro-editorin ja tein haluaman tekstin, jonka oli tarkoitus näkyä etusivulla. 
+
+ ![image](https://github.com/user-attachments/assets/011b69ed-bfe4-4658-93ec-d72392e5b54f)
+
+ Teksti näkyi onnistuneesti mariannetaipale.com osoitteessa. 
+
+ ![image](https://github.com/user-attachments/assets/e63ae199-b2d5-4fd4-8ac5-b4da34f64b62)
 
 
 ## d) Alidomain
