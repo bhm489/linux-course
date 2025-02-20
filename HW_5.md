@@ -60,7 +60,7 @@ Lähde: https://cets.seas.upenn.edu/answers/chmod.html
 ## c) Kotisivu
 #### 20.2.2025 klo. 11.30
 
-### index.html 
+### Sivut 
 
  ![image](https://github.com/user-attachments/assets/489b742e-bde0-4cb4-8ef4-b2115edd015b)
 
@@ -71,6 +71,19 @@ Lähde: https://cets.seas.upenn.edu/answers/chmod.html
  Teksti näkyi onnistuneesti mariannetaipale.com osoitteessa. 
 
  ![image](https://github.com/user-attachments/assets/e63ae199-b2d5-4fd4-8ac5-b4da34f64b62)
+
+Sitten tein kaksi muutakin sivua, blog.html ja projects.html
+
+![image](https://github.com/user-attachments/assets/0a2598d2-97d1-4f08-a11f-043a5534c595)
+
+### Tekstit sivuille ja linkitys 
+
+![image](https://github.com/user-attachments/assets/11d5a6e1-5b80-4975-b4cc-96a31b06fbd3)
+
+#### Etusivu 
+
+
+
 
 
 ## d) Alidomain
