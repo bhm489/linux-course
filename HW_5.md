@@ -78,13 +78,26 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 ### Tekstit sivuille ja linkitys 
 
+#### Etusivu
+
 ![image](https://github.com/user-attachments/assets/11d5a6e1-5b80-4975-b4cc-96a31b06fbd3)
 
-#### Etusivu 
+![image](https://github.com/user-attachments/assets/54abc0a8-b9f2-4bab-8de8-1fb9a9c73977)
+
+#### Blogisivu
+
+![image](https://github.com/user-attachments/assets/021454fc-0905-474e-8e23-9724c883b22b)
+
+![image](https://github.com/user-attachments/assets/bdf0f746-09bb-4e80-ae3d-b097e0990be9)
 
 
+#### Projektisivu
 
+![image](https://github.com/user-attachments/assets/7e1fb464-3c63-4566-b8d7-b9e7e077c6a3)
 
+![image](https://github.com/user-attachments/assets/64a60a2b-e19d-4306-981d-07b6670caa63)
+
+#### Lopetus klo. 12.35
 
 ## d) Alidomain
 
