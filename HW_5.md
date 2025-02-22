@@ -69,15 +69,15 @@ Lähde: https://cets.seas.upenn.edu/answers/chmod.html
 
 ### Sivut 
 
- ![image](https://github.com/user-attachments/assets/489b742e-bde0-4cb4-8ef4-b2115edd015b)
+![image](https://github.com/user-attachments/assets/ea457267-a21a-4197-b0a6-b0a03d2bd3f0)
 
- Avasin micro-editorin ja tein haluaman tekstin, jonka oli tarkoitus näkyä etusivulla. 
+Avasin micro-editorin ja tein haluaman tekstin, jonka oli tarkoitus näkyä etusivulla. 
 
- ![image](https://github.com/user-attachments/assets/011b69ed-bfe4-4658-93ec-d72392e5b54f)
+![image](https://github.com/user-attachments/assets/011b69ed-bfe4-4658-93ec-d72392e5b54f)
 
- Teksti näkyi onnistuneesti mariannetaipale.com osoitteessa. 
+Teksti näkyi onnistuneesti mariannetaipale.com osoitteessa. 
 
- ![image](https://github.com/user-attachments/assets/e63ae199-b2d5-4fd4-8ac5-b4da34f64b62)
+![image](https://github.com/user-attachments/assets/e63ae199-b2d5-4fd4-8ac5-b4da34f64b62)
 
 Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
@@ -104,7 +104,7 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 ![image](https://github.com/user-attachments/assets/64a60a2b-e19d-4306-981d-07b6670caa63)
 
-#### Lopetus klo. 12.35
+#### Lopetus klo. 13.35
 
 ## d) Alidomain
 
