@@ -25,7 +25,7 @@ Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin 
 
 ![image](https://github.com/user-attachments/assets/d2305440-c94a-4c5d-8d1b-62e0ea0ec7d4)
 
-Laitoin nimen @ ja www osoitteet osoittamaan haluttuun IP osoitteeseen.  
+Laitoin nimen @ ja www osoittamaan haluttuun IP osoitteeseen.  
 
 ![image](https://github.com/user-attachments/assets/434f324e-1d22-4c1a-9d7d-291961296fbf)
 
@@ -41,10 +41,9 @@ Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmi
 
 Avasin micro-editorin komennolla: 
 
-- ~$ EDITOR=micro sudoedit mariannetaipale.com.conf
+- $ EDITOR=micro sudoedit mariannetaipale.com.conf
 
 ![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
-
 
 Laitoin micro-editoriin: 
 
@@ -55,19 +54,20 @@ Laitoin micro-editoriin:
 ![image](https://github.com/user-attachments/assets/cb74b505-768c-4834-87fb-5f42a7765776)
 
 
-
-Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen forbidden. 
+Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen Forbidden. 
 
 ![image](https://github.com/user-attachments/assets/3f56b3be-90da-4138-bd72-12ac6f7b1282)
 
-Tarkastelin error lokia, että miksi sain tämän ilmoituksen. 
+Tarkastelin error-lokia, että miksi sain tämän ilmoituksen. 
 
-~$ sudo tail var/log/apache2/error.log
+- $ sudo tail var/log/apache2/error.log
 
 ![image](https://github.com/user-attachments/assets/7883abd8-0825-4bb6-bdf6-0d3a560c3bc0)
 
 Päättelin, että ryhmällä ei ollut tarvittavia oikeuksia ja lisäsin nämä oikeudet ryhmälle. 
 Annoin tälle ugo+x oikeudet, eli suoritusoikeudet kaikille tiedoston ryhmälle, omistajalle ja muille käyttäjille. 
+
+- $ chmod ugo+x marianne
 
 ![image](https://github.com/user-attachments/assets/ef345fd5-4cbe-4943-a58c-9e1a386db374)
 
