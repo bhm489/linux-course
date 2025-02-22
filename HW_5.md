@@ -123,12 +123,37 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 #### 22.2.2025 klo. 12:17
 
-Lisäsin kaksi CNAME tietuetta.
-![image](https://github.com/user-attachments/assets/6d39048d-7aaa-4ae7-a758-9e3c508391f8)
+Lisäsin kaksi CNAME tietuetta NameCheap palvelussa kohtaan Advanced DNS. CNAME eli "canonical name" tallentaa pisteitä aliasverkkotunnuksesta "ensisijaiseen" verkkotunnukseen. Nämä nimesin cv ja blogi. 
 
+![image](https://github.com/user-attachments/assets/a1573e84-722b-46f1-997c-8a13027c66bc)
 
+Avasin konfiguraatiotiedoston: 
+
+- $ sudo nano /etc/apache2/sites-available/mariannetaipale.com.conf
+
+Tiedostoon lisäsin ServerAlias kohtaan cv.mariannetaipale.com ja portfolio.mariannetaipale.com. 
+
+![image](https://github.com/user-attachments/assets/9810642e-1756-40c5-a8aa-436ecaf72d39)
+
+Asetukset käyttöön ja uudelleen käynnistys komennoilla: 
+
+- $ sudo a2ensite apache2
+
+- $ sudo systemctl restart apache2
+  
+![image](https://github.com/user-attachments/assets/e72c204a-ae8e-417f-a651-701a89d09bb1)
+
+Seuraavaksi menin katsomaan toimiko alidomainit sivustolla. Toimi, alidomainit avasivat saman sivun kun päädomain. 
+
+![image](https://github.com/user-attachments/assets/037cd277-19db-48b3-af4c-d97130892080)
+![image](https://github.com/user-attachments/assets/300e2e4a-8cdc-4010-92a0-eaf268b414c9)
+
+Lähde: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
+
+#### Lopetus 22.2.2025 klo 13:16
 
 ## e) host ja dig
 
 # Lähteet: 
-CETS Answers, How do I use chmod to change permissions? https://cets.seas.upenn.edu/answers/chmod.html
+CETS Answers. How do I use chmod to change permissions? https://cets.seas.upenn.edu/answers/chmod.html
+Cloudflare. What is a DNS CNAME record? https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/ 
