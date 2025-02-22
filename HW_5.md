@@ -42,11 +42,15 @@ Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmi
 
 ![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
 
-Micro: 
+![image](https://github.com/user-attachments/assets/8a6be761-0a12-440b-9ecb-60a1ee91c8c5)
+
+![image](https://github.com/user-attachments/assets/cb74b505-768c-4834-87fb-5f42a7765776)
+
+Laitoin micro-editoriin: 
 
 ![image](https://github.com/user-attachments/assets/a069b281-ea77-4c59-9b2b-7bcfeb449797)
 
-Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen forbidden, koska html sivustoa ei ole vielä tehty. 
+Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen forbidden. 
 
 ![image](https://github.com/user-attachments/assets/3f56b3be-90da-4138-bd72-12ac6f7b1282)
 
@@ -54,7 +58,7 @@ Tarkastelin error lokia, että miksi sain tämän ilmoituksen.
 
 ![image](https://github.com/user-attachments/assets/7883abd8-0825-4bb6-bdf6-0d3a560c3bc0)
 
-Päättelin että ryhmällä ei ollut tarvittavia oikeuksia ja lisäsin nämä oikeudet ryhmälle. 
+Päättelin, että ryhmällä ei ollut tarvittavia oikeuksia ja lisäsin nämä oikeudet ryhmälle. 
 Annoin tälle ugo+x oikeudet, eli suoritusoikeudet kaikille tiedoston ryhmälle, omistajalle ja muille käyttäjille. 
 
 ![image](https://github.com/user-attachments/assets/ef345fd5-4cbe-4943-a58c-9e1a386db374)
