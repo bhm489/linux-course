@@ -15,6 +15,10 @@ Lisäsin nimen ostoskoriin ja tarkistin että tiedot olivat oikein.
 
 ![image](https://github.com/user-attachments/assets/a8394bc0-da1f-4a20-908b-0153667d7377)
 
+## b) Based 
+
+#### 17.2.2025 klo 16.30
+
 Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin manage --> Advanced DNS 
 
 ![image](https://github.com/user-attachments/assets/75e632af-c201-4e98-9ddc-08a72a575617)
@@ -22,8 +26,6 @@ Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin 
 ![image](https://github.com/user-attachments/assets/d2305440-c94a-4c5d-8d1b-62e0ea0ec7d4)
 
 ![image](https://github.com/user-attachments/assets/82960c0b-579f-499a-b2ef-477ab29cc838)
-
-### @ ja www
 
 Laitoin nimen @ ja www osoitteet osoittamaan haluttuun IP osoitteeseen.  
 
@@ -35,11 +37,11 @@ Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmi
 
 #### Lopetus klo. 13.10
 
-## b) Based 
-
-#### 17.2.2025 klo 16.30
-
 ![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
+
+## c) Kotisivu
+
+#### 20.2.2025 klo. 11.30
 
 Micro: 
 
@@ -60,8 +62,7 @@ Annoin tälle ugo+x oikeudet, eli suoritusoikeudet kaikille tiedoston ryhmälle,
 
 Lähde: https://cets.seas.upenn.edu/answers/chmod.html 
 
-## c) Kotisivu
-#### 20.2.2025 klo. 11.30
+
 
 ### Sivut 
 
