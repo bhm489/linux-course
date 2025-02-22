@@ -35,11 +35,12 @@ Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmi
 
 #### Lopetus klo. 13.10
 
-![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
 
 ## c) Kotisivu
 
 #### 20.2.2025 klo. 11.30
+
+![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
 
 Micro: 
 
@@ -59,8 +60,6 @@ Annoin tälle ugo+x oikeudet, eli suoritusoikeudet kaikille tiedoston ryhmälle,
 ![image](https://github.com/user-attachments/assets/ef345fd5-4cbe-4943-a58c-9e1a386db374)
 
 Lähde: https://cets.seas.upenn.edu/answers/chmod.html 
-
-
 
 ### Sivut 
 
