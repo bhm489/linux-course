@@ -3,11 +3,11 @@
 
 ## a) Nimi 
 
-#### 13.2.2025 Klo. 12.10
+#### 13.2.2025 klo. 12:10
 
 Valitsin NameCheap palvelun, josta hankin nimen. Ensiksi tein itselleni tilin sinne ja täytin tarvittavat tiedot. 
 Seuraavaksi katsoin olisiko haluamani nimi vapaa. Pelkkä "taipale" ei ollut vapaa, niin valitsin nimeksi "mariannetaipale".
-Lisäsin nimen ostoskoriin ja tarkistin että tiedot olivat oikein.
+Lisäsin nimen ostoskoriin ja tarkistin, että tiedot olivat oikein.
 
 ![image](https://github.com/user-attachments/assets/f82fb375-1c53-4d13-853c-f9d216f29c74)
 
@@ -15,11 +15,13 @@ Lisäsin nimen ostoskoriin ja tarkistin että tiedot olivat oikein.
 
 ![image](https://github.com/user-attachments/assets/a8394bc0-da1f-4a20-908b-0153667d7377)
 
+#### Lopetus 13.2.2025 klo. 12:45
+ 
 ## b) Based 
 
-#### 17.2.2025 klo 16.30
+#### 17.2.2025 klo. 16:30
 
-Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin manage --> Advanced DNS 
+Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin MANAGE --> Advanced DNS 
 
 ![image](https://github.com/user-attachments/assets/75e632af-c201-4e98-9ddc-08a72a575617)
 
@@ -33,11 +35,11 @@ Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmi
 
 ![image](https://github.com/user-attachments/assets/46da410b-621b-429d-9c31-bcc5e4ac3cf3)
 
-#### Lopetus klo. 13.10
+#### Lopetus 17.2.2025 klo. 16:55
 
 ## c) Kotisivu
 
-#### 20.2.2025 klo. 11.30
+#### 20.2.2025 klo. 11:30
 
 Avasin micro-editorin komennolla: 
 
@@ -45,9 +47,15 @@ Avasin micro-editorin komennolla:
 
 ![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
 
-Laitoin micro-editoriin: 
+Syötin micro-editoriin: 
 
 ![image](https://github.com/user-attachments/assets/a069b281-ea77-4c59-9b2b-7bcfeb449797)
+
+Seuraavaksi syötin seuraavat komennot, että konfiguraatio otetaan käyttöön ja apache käynnistyy uudestaan. 
+
+- sudo a2ensite mariannetaipale.com.conf
+  
+- sudo systemctl restart apache2
 
 ![image](https://github.com/user-attachments/assets/8a6be761-0a12-440b-9ecb-60a1ee91c8c5)
 
@@ -57,14 +65,14 @@ Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen
 
 ![image](https://github.com/user-attachments/assets/3f56b3be-90da-4138-bd72-12ac6f7b1282)
 
-Tarkastelin error-lokia, että miksi sain tämän ilmoituksen. 
+Tarkastelin error-lokia, että mistä tämä ilmoitus tuli. 
 
 - $ sudo tail var/log/apache2/error.log
 
 ![image](https://github.com/user-attachments/assets/7883abd8-0825-4bb6-bdf6-0d3a560c3bc0)
 
 Päättelin, että ryhmällä ei ollut tarvittavia oikeuksia ja lisäsin nämä oikeudet ryhmälle. 
-Annoin tälle ugo+x oikeudet, eli suoritusoikeudet kaikille tiedoston ryhmälle, omistajalle ja muille käyttäjille. 
+Annoin tälle ugo+x oikeudet. 
 
 - $ chmod ugo+x marianne
 
@@ -109,7 +117,7 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 ![image](https://github.com/user-attachments/assets/64a60a2b-e19d-4306-981d-07b6670caa63)
 
-#### Lopetus klo. 13.35
+#### Lopetus 20.2.2025 klo. 13:35
 
 ## d) Alidomain
 
