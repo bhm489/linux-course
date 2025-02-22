@@ -53,7 +53,6 @@ Laitoin micro-editoriin:
 
 ![image](https://github.com/user-attachments/assets/cb74b505-768c-4834-87fb-5f42a7765776)
 
-
 Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen Forbidden. 
 
 ![image](https://github.com/user-attachments/assets/3f56b3be-90da-4138-bd72-12ac6f7b1282)
