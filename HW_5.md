@@ -35,20 +35,26 @@ Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmi
 
 #### Lopetus klo. 13.10
 
-
 ## c) Kotisivu
 
 #### 20.2.2025 klo. 11.30
 
+Avasin micro-editorin komennolla: 
+
+- ~$ EDITOR=micro sudoedit mariannetaipale.com.conf
+
 ![image](https://github.com/user-attachments/assets/c6f45976-c6d1-440c-950b-175e29399624)
+
+
+Laitoin micro-editoriin: 
+
+![image](https://github.com/user-attachments/assets/a069b281-ea77-4c59-9b2b-7bcfeb449797)
 
 ![image](https://github.com/user-attachments/assets/8a6be761-0a12-440b-9ecb-60a1ee91c8c5)
 
 ![image](https://github.com/user-attachments/assets/cb74b505-768c-4834-87fb-5f42a7765776)
 
-Laitoin micro-editoriin: 
 
-![image](https://github.com/user-attachments/assets/a069b281-ea77-4c59-9b2b-7bcfeb449797)
 
 Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen forbidden. 
 
