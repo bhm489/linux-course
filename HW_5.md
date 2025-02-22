@@ -133,7 +133,7 @@ Avasin konfiguraatiotiedoston:
 
 Tiedostoon lisäsin ServerAlias kohtaan cv.mariannetaipale.com ja portfolio.mariannetaipale.com. 
 
-![image](https://github.com/user-attachments/assets/9810642e-1756-40c5-a8aa-436ecaf72d39)
+![image](https://github.com/user-attachments/assets/07438bc1-9f69-47cf-be6a-d89ac124740f)
 
 Asetukset käyttöön ja uudelleen käynnistys komennoilla: 
 
@@ -153,6 +153,29 @@ Lähde: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
 #### Lopetus 22.2.2025 klo 13:16
 
 ## e) host ja dig
+#### 22.2.2025 klo. 13:44 
+
+Asensin tarvittavat työkalut. 
+
+- $ sudo apt update
+- $ sudo apt install dnsutils -y
+
+![image](https://github.com/user-attachments/assets/c2861ba0-92de-487a-a602-c362e13c20db)
+
+### Oma domain
+
+![image](https://github.com/user-attachments/assets/3f46eeeb-48ca-46ff-8d80-afc2db73f87a)
+
+
+### Pikkuyritys
+
+![image](https://github.com/user-attachments/assets/b3eb4323-44cb-4625-b165-68cd0e546529)
+
+### Suuriyritys
+
+![image](https://github.com/user-attachments/assets/3d2efa04-9cbd-4f69-97a3-bc3975265d4f)
+
+#### Lopetus 22.2.2025 klo. 14:50 
 
 # Lähteet: 
 CETS Answers. How do I use chmod to change permissions? https://cets.seas.upenn.edu/answers/chmod.html
