@@ -6,7 +6,8 @@
 #### 13.2.2025 Klo. 12.10
 
 Valitsin NameCheap palvelun, josta hankin nimen. Ensiksi tein itselleni tilin sinne ja täytin tarvittavat tiedot. 
-Seuraavaksi katsoin olisiko haluamani nimi vapaa. Pelkkä "taipale" ei ollut vapaa, niin valitsin nimeksi "mariannetaipale"
+Seuraavaksi katsoin olisiko haluamani nimi vapaa. Pelkkä "taipale" ei ollut vapaa, niin valitsin nimeksi "mariannetaipale".
+Lisäsin nimen ostoskoriin ja tarkistin että tiedot olivat oikein.
 
 ![image](https://github.com/user-attachments/assets/f82fb375-1c53-4d13-853c-f9d216f29c74)
 
@@ -31,6 +32,8 @@ Laitoin nimen @ ja www osoitteet osoittamaan haluttuun IP osoitteeseen.
 Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmin tehty sivu ja teksti, kyllä näkyi. 
 
 ![image](https://github.com/user-attachments/assets/46da410b-621b-429d-9c31-bcc5e4ac3cf3)
+
+#### Lopetus klo. 13.10
 
 ## b) Based 
 
