@@ -56,6 +56,8 @@ Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen
 
 Tarkastelin error lokia, että miksi sain tämän ilmoituksen. 
 
+$ sudo tail var/log/apache2/error.log
+
 ![image](https://github.com/user-attachments/assets/7883abd8-0825-4bb6-bdf6-0d3a560c3bc0)
 
 Päättelin, että ryhmällä ei ollut tarvittavia oikeuksia ja lisäsin nämä oikeudet ryhmälle. 
