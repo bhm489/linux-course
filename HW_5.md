@@ -121,6 +121,13 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 ## d) Alidomain
 
+#### 22.2.2025 klo. 12:17
+
+Lisäsin kaksi CNAME tietuetta.
+![image](https://github.com/user-attachments/assets/6d39048d-7aaa-4ae7-a758-9e3c508391f8)
+
+
+
 ## e) host ja dig
 
 # Lähteet: 
