@@ -67,7 +67,7 @@ Tämän jälkeen menin katsomaan sivustolla mikä muuttui. Sain virheilmoituksen
 
 Tarkastelin error-lokia, että mistä tämä ilmoitus tuli. 
 
-- $ sudo tail var/log/apache2/error.log
+- $ sudo tail /var/log/apache2/error.log
 
 ![image](https://github.com/user-attachments/assets/7883abd8-0825-4bb6-bdf6-0d3a560c3bc0)
 
@@ -98,20 +98,20 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 ### Tekstit sivuille ja linkitys 
 
-#### Etusivu
+### Etusivu
 
 ![image](https://github.com/user-attachments/assets/11d5a6e1-5b80-4975-b4cc-96a31b06fbd3)
 
 ![image](https://github.com/user-attachments/assets/54abc0a8-b9f2-4bab-8de8-1fb9a9c73977)
 
-#### Blogisivu
+### Blogisivu
 
 ![image](https://github.com/user-attachments/assets/021454fc-0905-474e-8e23-9724c883b22b)
 
 ![image](https://github.com/user-attachments/assets/bdf0f746-09bb-4e80-ae3d-b097e0990be9)
 
 
-#### Projektisivu
+### Projektisivu
 
 ![image](https://github.com/user-attachments/assets/7e1fb464-3c63-4566-b8d7-b9e7e077c6a3)
 
@@ -123,7 +123,7 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 #### 22.2.2025 klo. 12:17
 
-Lisäsin kaksi CNAME tietuetta NameCheap palvelussa kohtaan Advanced DNS. CNAME eli "canonical name" tallentaa pisteitä aliasverkkotunnuksesta "ensisijaiseen" verkkotunnukseen. Nämä nimesin cv ja blogi. 
+Lisäsin kaksi CNAME tietuetta NameCheap palvelussa kohtaan Advanced DNS. CNAME eli "canonical name" tallentaa pisteitä aliasverkkotunnuksesta "ensisijaiseen" verkkotunnukseen. Nämä nimesin cv ja blogi. Lähde: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
 
 ![image](https://github.com/user-attachments/assets/a1573e84-722b-46f1-997c-8a13027c66bc)
 
@@ -147,8 +147,6 @@ Seuraavaksi menin katsomaan toimiko alidomainit sivustolla. Toimi, alidomainit a
 
 ![image](https://github.com/user-attachments/assets/037cd277-19db-48b3-af4c-d97130892080)
 ![image](https://github.com/user-attachments/assets/300e2e4a-8cdc-4010-92a0-eaf268b414c9)
-
-Lähde: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
 
 #### Lopetus 22.2.2025 klo 13:16
 
@@ -178,5 +176,5 @@ Asensin tarvittavat työkalut.
 #### Lopetus 22.2.2025 klo. 14:50 
 
 # Lähteet: 
-CETS Answers. How do I use chmod to change permissions? https://cets.seas.upenn.edu/answers/chmod.html
+CETS Answers. How do I use chmod to change permissions? https://cets.seas.upenn.edu/answers/chmod.html   
 Cloudflare. What is a DNS CNAME record? https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/ 
