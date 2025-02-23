@@ -1,8 +1,6 @@
 # Nimekäs h5
 
-
 ## a) Nimi 
-
 #### 13.2.2025 klo. 12:10
 
 Valitsin NameCheap palvelun, josta hankin nimen. Ensiksi tein itselleni tilin sinne ja täytin tarvittavat tiedot. 
@@ -14,11 +12,9 @@ Lisäsin nimen ostoskoriin ja tarkistin, että tiedot olivat oikein.
 ![image](https://github.com/user-attachments/assets/16abc6bb-2e32-40d3-8416-ee9551ac1b0e)
 
 ![image](https://github.com/user-attachments/assets/a8394bc0-da1f-4a20-908b-0153667d7377)
-
 #### Lopetus 13.2.2025 klo. 12:45
  
 ## b) Based 
-
 #### 17.2.2025 klo. 16:30
 
 Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin MANAGE --> Advanced DNS 
@@ -31,14 +27,12 @@ Laitoin nimen @ ja www osoittamaan haluttuun IP osoitteeseen.
 
 ![image](https://github.com/user-attachments/assets/434f324e-1d22-4c1a-9d7d-291961296fbf)
 
-Kävin katsomassa näkyykö nyt osoitteessa mariannetaipale.com minun aikaisemmin tehty sivu ja teksti, kyllä näkyi. 
+Kävin katsomassa näkyikö osoitteessa mariannetaipale.com minun aikaisemmin tekemäni sivu ja teksti, kyllä näkyi. 
 
 ![image](https://github.com/user-attachments/assets/46da410b-621b-429d-9c31-bcc5e4ac3cf3)
-
 #### Lopetus 17.2.2025 klo. 16:55
 
 ## c) Kotisivu
-
 #### 20.2.2025 klo. 11:30
 
 Avasin micro-editorin komennolla: 
@@ -80,7 +74,7 @@ Annoin tälle ugo+x oikeudet.
 
 Lähde: https://cets.seas.upenn.edu/answers/chmod.html 
 
-### Sivut 
+### index.html
 
 ![image](https://github.com/user-attachments/assets/ea457267-a21a-4197-b0a6-b0a03d2bd3f0)
 
@@ -100,30 +94,28 @@ Sitten tein kaksi muutakin sivua, blog.html ja projects.html
 
 ### Etusivu
 
-![image](https://github.com/user-attachments/assets/11d5a6e1-5b80-4975-b4cc-96a31b06fbd3)
+![image](https://github.com/user-attachments/assets/4c210d15-82b9-4b49-948a-9545b8b992d6)
 
-![image](https://github.com/user-attachments/assets/54abc0a8-b9f2-4bab-8de8-1fb9a9c73977)
+![image](https://github.com/user-attachments/assets/dae7ae5f-649c-43bf-88fb-8382a337882e)
 
 ### Blogisivu
 
-![image](https://github.com/user-attachments/assets/021454fc-0905-474e-8e23-9724c883b22b)
+![image](https://github.com/user-attachments/assets/bd473d84-6272-4c19-80c2-c3e5a4a740f7)
 
-![image](https://github.com/user-attachments/assets/bdf0f746-09bb-4e80-ae3d-b097e0990be9)
-
+![image](https://github.com/user-attachments/assets/f3241edd-5cdd-4652-afb2-b6f2798f02ff)
 
 ### Projektisivu
 
-![image](https://github.com/user-attachments/assets/7e1fb464-3c63-4566-b8d7-b9e7e077c6a3)
+![image](https://github.com/user-attachments/assets/32a96a76-5199-43d5-aff5-92719caf6438)
 
-![image](https://github.com/user-attachments/assets/64a60a2b-e19d-4306-981d-07b6670caa63)
+![image](https://github.com/user-attachments/assets/5a6ad005-98ef-4078-9958-dace9c218c29)
 
 #### Lopetus 20.2.2025 klo. 13:35
 
 ## d) Alidomain
-
 #### 22.2.2025 klo. 12:17
 
-Lisäsin kaksi CNAME tietuetta NameCheap palvelussa kohtaan Advanced DNS. CNAME eli "canonical name" tallentaa pisteitä aliasverkkotunnuksesta "ensisijaiseen" verkkotunnukseen. Nämä nimesin cv ja blogi. Lähde: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
+Lisäsin kaksi CNAME tietuetta NameCheap palvelussa kohtaan Advanced DNS. CNAME eli "canonical name" tallentaa pisteitä aliasverkkotunnuksesta "ensisijaiseen" verkkotunnukseen. Nämä nimesin cv ja portfolio. Lähde: https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
 
 ![image](https://github.com/user-attachments/assets/a1573e84-722b-46f1-997c-8a13027c66bc)
 
@@ -145,8 +137,8 @@ Asetukset käyttöön ja uudelleen käynnistys komennoilla:
 
 Seuraavaksi menin katsomaan toimiko alidomainit sivustolla. Toimi, alidomainit avasivat saman sivun kun päädomain. 
 
-![image](https://github.com/user-attachments/assets/037cd277-19db-48b3-af4c-d97130892080)
-![image](https://github.com/user-attachments/assets/300e2e4a-8cdc-4010-92a0-eaf268b414c9)
+![image](https://github.com/user-attachments/assets/81c47da1-a555-41fd-84fb-29e78a1b572a)
+![image](https://github.com/user-attachments/assets/55738277-00b5-4eaa-adbc-6fe7d6030648)
 
 #### Lopetus 22.2.2025 klo 13:16
 
@@ -162,25 +154,36 @@ Asensin tarvittavat työkalut.
 
 ### Oma domain
 
-![image](https://github.com/user-attachments/assets/aa732e95-4590-4f37-b1b5-2c2c5f92aad1)
-
 - $ host mariannetaipale.com
 - $ dig mariannetaipale.com ANY
   
 ![image](https://github.com/user-attachments/assets/3f46eeeb-48ca-46ff-8d80-afc2db73f87a)    
 
+NameCheapin Advanced DNS:  
+![image](https://github.com/user-attachments/assets/aa732e95-4590-4f37-b1b5-2c2c5f92aad1)
+
 Terminaalissa host-komento näytti mariannetaipale.com A-tietueen, eli IP osoitteen, joka oli sama kuin NameCheapin Advanced DNS asetuksissa. 
+dig-komennolla näkyi paljon enemmän tietoa. Tässä näkyi A tietue (IP-osoite), joka oli sama kuin NameCheapin DNS asetuksissa. Tässä näkyi myös nimipalvelimet(NS) ja sähköpostipalvelin(MX).
 
-dig-komennolla näkyi paljon enemmän tietoa, kuten A tietue (IP-osoite), joka oli sama kuin NameCheapin DNS asetuksissa. Tässä näkyi myös nimipalvelimet(NS) ja sähköpostipalvelin(MX).
+### Pienyritys
 
-### Pikkuyritys
-
+- $ host kauneusprimavera.fi
+- $ dig kauneusprimavera.fi ANY
+  
 ![image](https://github.com/user-attachments/assets/b3eb4323-44cb-4625-b165-68cd0e546529)
+
+Tässä host kertoi pienyrityksen IP-osoiteen, IPv6 osoiteen ja sähköpostipalvelimen. 
+dig-komennolla löytyi aika lailla samat tiedot. AAAA eli käytössä IPv6 osoite. 
+A tietue eli IP osoite. Sähköpostipalvelimen 10 mail1.sigmatic.fi
 
 ### Suuriyritys
 
+- $ host youtube.com
+- $ dig youtube.com ANY
+  
 ![image](https://github.com/user-attachments/assets/3d2efa04-9cbd-4f69-97a3-bc3975265d4f)
 
+host-komennolla näkyi IP osoite, IPv6 osoite ja sähköpostipalvelin. dig-komennolla löytyi A tietue eli IP osoite, kaikki nimipalvelimet, sähköpostipalvelin 0 smtp.google.com ja AAAA eli IPv6 osoite.
 #### Lopetus 22.2.2025 klo. 14:50 
 
 # Lähteet: 
