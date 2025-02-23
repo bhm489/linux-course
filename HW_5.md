@@ -12,10 +12,8 @@ Lisäsin nimen ostoskoriin ja tarkistin, että tiedot olivat oikein.
 ![image](https://github.com/user-attachments/assets/16abc6bb-2e32-40d3-8416-ee9551ac1b0e)
 
 ![image](https://github.com/user-attachments/assets/a8394bc0-da1f-4a20-908b-0153667d7377)
-#### Lopetus 13.2.2025 klo. 12:45
- 
-## b) Based 
-#### 17.2.2025 klo. 16:30
+
+### Osoittamaan omaan koneeseen 
 
 Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin MANAGE --> Advanced DNS 
 
@@ -30,10 +28,10 @@ Laitoin nimen @ ja www osoittamaan haluttuun IP osoitteeseen.
 Kävin katsomassa näkyikö osoitteessa mariannetaipale.com minun aikaisemmin tekemäni sivu ja teksti, kyllä näkyi. 
 
 ![image](https://github.com/user-attachments/assets/46da410b-621b-429d-9c31-bcc5e4ac3cf3)
-#### Lopetus 17.2.2025 klo. 16:55
+#### Lopetus 13.2.2025 klo. 13:05
 
-## c) Kotisivu
-#### 20.2.2025 klo. 11:30
+## b) Based, Name Based Virtual Host näkymään uudessa nimessä.
+#### 17.2.2025 klo. 16:30
 
 Avasin micro-editorin komennolla: 
 
@@ -73,8 +71,10 @@ Annoin tälle ugo+x oikeudet.
 ![image](https://github.com/user-attachments/assets/ef345fd5-4cbe-4943-a58c-9e1a386db374)
 
 Lähde: https://cets.seas.upenn.edu/answers/chmod.html 
+#### Lopetus 17.2.2025 klo. 17:45
 
-### index.html
+## c) Kotisivu
+#### 20.2.2025 klo. 11:30
 
 ![image](https://github.com/user-attachments/assets/ea457267-a21a-4197-b0a6-b0a03d2bd3f0)
 
