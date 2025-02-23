@@ -172,7 +172,7 @@ dig-komennolla näkyi paljon enemmän tietoa. Tässä näkyi A tietue (IP-osoite
   
 ![image](https://github.com/user-attachments/assets/b3eb4323-44cb-4625-b165-68cd0e546529)
 
-Tässä host kertoi pienyrityksen IP-osoiteen, IPv6 osoiteen ja sähköpostipalvelimen. 
+Tässä host-komento kertoi pienyrityksen IP-osoitteen, IPv6 osoitteen ja sähköpostipalvelimen. 
 dig-komennolla löytyi aika lailla samat tiedot. AAAA eli käytössä IPv6 osoite. 
 A tietue eli IP osoite. Sähköpostipalvelimen 10 mail1.sigmatic.fi
 
