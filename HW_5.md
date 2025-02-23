@@ -53,9 +53,9 @@ Syötin micro-editoriin:
 
 Seuraavaksi syötin seuraavat komennot, että konfiguraatio otetaan käyttöön ja apache käynnistyy uudestaan. 
 
-- sudo a2ensite mariannetaipale.com.conf
+- $ sudo a2ensite mariannetaipale.com.conf
   
-- sudo systemctl restart apache2
+- $ sudo systemctl restart apache2
 
 ![image](https://github.com/user-attachments/assets/8a6be761-0a12-440b-9ecb-60a1ee91c8c5)
 
@@ -162,8 +162,16 @@ Asensin tarvittavat työkalut.
 
 ### Oma domain
 
-![image](https://github.com/user-attachments/assets/3f46eeeb-48ca-46ff-8d80-afc2db73f87a)
+![image](https://github.com/user-attachments/assets/aa732e95-4590-4f37-b1b5-2c2c5f92aad1)
 
+- $ host mariannetaipale.com
+- $ dig mariannetaipale.com ANY
+  
+![image](https://github.com/user-attachments/assets/3f46eeeb-48ca-46ff-8d80-afc2db73f87a)    
+
+Terminaalissa host-komento näytti mariannetaipale.com A-tietueen, eli IP osoitteen, joka oli sama kuin NameCheapin Advanced DNS asetuksissa. 
+
+dig-komennolla näkyi paljon enemmän tietoa, kuten A tietue (IP-osoite), joka oli sama kuin NameCheapin DNS asetuksissa. Tässä näkyi myös nimipalvelimet(NS) ja sähköpostipalvelin(MX).
 
 ### Pikkuyritys
 
