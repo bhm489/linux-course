@@ -21,7 +21,7 @@ Domain list- kohdasta näkyi omat nimet. Muokatakseen nimen asetuksia klikkasin 
 
 ![image](https://github.com/user-attachments/assets/d2305440-c94a-4c5d-8d1b-62e0ea0ec7d4)
 
-Laitoin nimen @ ja www osoittamaan haluttuun IP osoitteeseen.  
+Laitoin @ ja www osoittamaan haluttuun IP osoitteeseen.  
 
 ![image](https://github.com/user-attachments/assets/434f324e-1d22-4c1a-9d7d-291961296fbf)
 
