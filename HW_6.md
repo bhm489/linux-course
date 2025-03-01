@@ -131,6 +131,10 @@ Sitten muutokset käyttöön:
 ![image](https://github.com/user-attachments/assets/cf78158d-229e-4200-a6cf-170b5d69810b)
 ![image](https://github.com/user-attachments/assets/aa40947e-100c-4dd5-8ea5-9e53c4adf54e)
 
+## Reikä tulimuuriin 443/tcp
+
+
+
 ## b) A-rating
 
 Testataan oman sivuni TLS jollain yleisellä laadunvarmistustyökalulla.
