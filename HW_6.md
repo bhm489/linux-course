@@ -144,9 +144,9 @@ Seuraavaksi menin sivustolle katsomaan onko nyt https onnistuneesti käytössä.
 ## b) A-rating
 #### 1.3.2025 klo. 15:25
 
-Testataan oman sivuni TLS eli tietoturvaprotokolla jollain yleisellä laadunvarmistustyökalulla.
+Testataan oman sivuni TLS eli tietoturvaprotokolla laadunvarmistustyökalulla. Valitsin suositellun laadunvarmistustyökalun, SSLLabs. 
 
-Valitsin suositellun laadunvarmistustyökalun, SSLLabs. Syötin hostname-kohtaan oman sivuni osoitteen. 
+Syötin hostname-kohtaan oman sivuni osoitteen. 
 
 ![image](https://github.com/user-attachments/assets/34ca6d97-ee0f-4791-abaa-e562eab4c05a)
 
