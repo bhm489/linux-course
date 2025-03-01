@@ -40,7 +40,7 @@ Lähde: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 #### Lopetus 26.2.2025 Klo. 11:14
 
 ## a) Let's 
-##### 1.3.2025 Klo. 11:15
+##### 1.3.2025 Klo. 12:03
 
 Hankitaan ja asennetaan palvelimelleni ilmainen TLS-sertifikaatti Let's Encryptilta. Ihan ensimmäiseksi menin katsomaan, että toimiiko verkkosivuni. Kyllä toimi.
 
@@ -139,7 +139,10 @@ Seuraavaksi menin sivustolle katsomaan onko nyt https onnistuneesti käytössä.
 
 ![image](https://github.com/user-attachments/assets/40e0b6e2-b6f2-432e-a597-781e7405091c)
 
+#### Lopetus 1.3.2025 klo. 15:15
+
 ## b) A-rating
+#### 1.3.2025 klo. 15:25
 
 Testataan oman sivuni TLS eli tietoturvaprotokolla jollain yleisellä laadunvarmistustyökalulla.
 
@@ -158,9 +161,7 @@ Sain A-rating eli SSL sertifikaatti on oikein asennettu ja voimassa.
 Lähde: https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/  
 https://www.ssllabs.com/ssltest/index.html  
 
-## Vapaaehtoinen
-
-Tee webbilomake, jossa käyttäjätunnus ja salasana. 
+#### Lopetus 1.3.2025 klo. 15:50
 
 ## Lähteet 
 Let's Encrypt. 26.6.2024. How It Works. https://letsencrypt.org/how-it-works/  
