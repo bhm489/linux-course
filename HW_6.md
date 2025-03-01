@@ -11,8 +11,8 @@
 ### Let's Encrypt
 
 - Tavoitteena on mahdollistaa HTTPS-palvelimen perustaminen ja selaimeen tulee automaattisesti sertifikaatti näkyviin.
-- Prosessin ensimmäiset vaiheet ovat
-  
+- Prosessin ensimmäiset vaiheet ovat, että agentti todistaa CA:lle, että verkkopalvelin hallitsee toimialuetta. Sitten agentti voi pyytää, uusia ja peruuttaa kyseisen toimialueen varmenteita.
+
 Lähde: https://letsencrypt.org/how-it-works/  
 
 ### Using an existing, running web server
@@ -26,13 +26,14 @@ Lähde: https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html
 
 - SSL konfiguraation pitää sisältää vähintään:
 
-Listen 443    
-<VirtualHost *:443>    
-    ServerName www.example.com    
-    SSLEngine on    
-    SSLCertificateFile "/path/to/www.example.com.cert"    
-    SSLCertificateKeyFile "/path/to/www.example.com.key"    
-</VirtualHost>    
+```  
+<VirtualHost *:443>  
+    ServerName www.example.com  
+    SSLEngine on  
+    SSLCertificateFile "/path/to/www.example.com.cert"  
+    SSLCertificateKeyFile "/path/to/www.example.com.key"
+</VirtualHost>
+```
 
 Lähde: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 
@@ -55,20 +56,80 @@ Seuraavaksi kirjauduin sisään minun etäpalvelimelle, päivitin ja latasin leg
 
 ![Screenshot 2025-02-27 124422](https://github.com/user-attachments/assets/b99eb5a8-d633-4261-a0f7-d7acb0f6628f)    
 
-Hain sertifikaatin legolla komennolla: 
+### Testisertifikaatti
+
+Aloin tekemään testipalvelimella testisertifikaattia. 
+
+Ensimmäiseksi tein lego kansion testisertifikaatille.
+
+![image](https://github.com/user-attachments/assets/c8c62ff7-6f1e-44ec-8223-4cbd733e77d3)
+
+Saadakseni testisertifikaatin suoritin komennon: 
 
 ```
 $ lego
 --server=https://acme-staging-v02.api.letsencrypt.org/directory
 --accept-tos
---email="ishouldchangesamplevalues@example.com"
---domains="tero.example.com" --domains="www.tero.example.com"
---http --http.webroot="/home/tero/public_sites/tero.example.com/"
---path="/home/tero/lego/certificates/"
+--email=mariannetaipale@gmail.com
+--domains=mariannetaipale.com --domains="www.mariannetaipale.com"
+--http --http.webroot="/home/marianne/public_sites/mariannetaipale.com/"
+--path="/home/marianne/lego/certificates/"
 --pem
 run
 ```
 
+![image](https://github.com/user-attachments/assets/759199e9-24f5-4afe-80fd-a17b29c77dad)
+
+Tämä onnistui, ja palautui teksti: 
+
+![image](https://github.com/user-attachments/assets/e64076ac-482c-4292-862a-3430a721315c)
+
+Myös lego kansioon tuli sertifikaatti näkyviin: 
+
+![image](https://github.com/user-attachments/assets/56b6039f-6568-4598-884c-36b684894f15)
+
+### Oikea sertifikaatti
+
+Laitoin testisertifikaatin lego-kansion pois käytöstä ja nimesin sen uudestaan. Tämän jälkeen
+tein uuden lego kansion oikealle sertifikaatille.
+
+![image](https://github.com/user-attachments/assets/c5567838-917d-4627-8171-ede5459124f7)
+
+Suoritin komennon: 
+```
+$ lego
+--accept-tos
+--email=mariannetaipale@gmail.com
+--domains=mariannetaipale.com --domains="www.mariannetaipale.com"
+--http --http.webroot="/home/marianne/public_sites/mariannetaipale.com/"
+--path="/home/marianne/lego/certificates/"
+--pem
+run
+```
+![image](https://github.com/user-attachments/assets/3ff22c71-13d3-4cf9-8bd9-333d3acb3145)
+
+Sertifikaation luominen onnistui, ja sain tekstin "Server responded with a certificate." ja Lego-kansiossa näkyi tämä sertifikaatti. 
+
+![image](https://github.com/user-attachments/assets/7b57bdeb-a072-4202-84e8-35d35d501654)
+
+### Sertifikaatti käyttöön Name Based Virtual Host:issa
+
+Seuraavaksi tarkoituksena olisi ottaa otetaan käyttöön sertifikaatti name based virtual host:issa. Ensiksi menin  Virtual Host asetuksiin ja lisäsin sinne asetukset 443-portilla. 
+
+![image](https://github.com/user-attachments/assets/9e9d11af-856c-4049-a1bc-6acfcd50a35f)
+
+Micro editoriin: 
+
+![image](https://github.com/user-attachments/assets/5a49e7d1-ed5c-41e9-a96c-58eb7c5e98e7)
+
+Sitten muutokset käyttöön: 
+```
+ $ sudo a2enmod ssl
+ $ sudo apache2ctl configtest
+```
+
+![image](https://github.com/user-attachments/assets/cf78158d-229e-4200-a6cf-170b5d69810b)
+![image](https://github.com/user-attachments/assets/aa40947e-100c-4dd5-8ea5-9e53c4adf54e)
 
 ## b) A-rating
 
