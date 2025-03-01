@@ -129,9 +129,9 @@ Sitten muutokset käyttöön:
 
 ![image](https://github.com/user-attachments/assets/2dc80ca1-5561-481b-b1dd-9db627891235)
 
-## Reikä tulimuuriin 443/tcp
+## Reikä palomuuriin 443/tcp
 
-Tein reiän tulimuuriin komennolla:
+Tein reiän palomuuriin komennolla:
 
 - $ sudo ufw 443/tcp
 
