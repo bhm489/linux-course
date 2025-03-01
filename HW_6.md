@@ -123,25 +123,48 @@ Micro editoriin:
 ![image](https://github.com/user-attachments/assets/5a49e7d1-ed5c-41e9-a96c-58eb7c5e98e7)
 
 Sitten muutokset käyttöön: 
-```
- $ sudo a2enmod ssl
- $ sudo apache2ctl configtest
-```
 
-![image](https://github.com/user-attachments/assets/cf78158d-229e-4200-a6cf-170b5d69810b)
-![image](https://github.com/user-attachments/assets/aa40947e-100c-4dd5-8ea5-9e53c4adf54e)
+ - $ sudo systemctl restart apache2
+ - $ sudo apache2ctl configtest
+
+![image](https://github.com/user-attachments/assets/2dc80ca1-5561-481b-b1dd-9db627891235)
 
 ## Reikä tulimuuriin 443/tcp
 
+Tein reiän tulimuuriin komennolla:
 
+- $ sudo ufw 443/tcp
+
+Seuraavaksi menin sivustolle katsomaan onko nyt https onnistuneesti käytössä. Kyllä, nyt minulla oli käytössä https omalla verkkosivulla.
+
+![image](https://github.com/user-attachments/assets/40e0b6e2-b6f2-432e-a597-781e7405091c)
 
 ## b) A-rating
 
-Testataan oman sivuni TLS jollain yleisellä laadunvarmistustyökalulla.
+Testataan oman sivuni TLS eli tietoturvaprotokolla jollain yleisellä laadunvarmistustyökalulla.
+
+Valitsin suositellun laadunvarmistustyökalun, SSLLabs. Syötin hostname-kohtaan oman sivuni osoitteen. 
+
+![image](https://github.com/user-attachments/assets/34ca6d97-ee0f-4791-abaa-e562eab4c05a)
+
+Tulokseksi sain seuraavat: 
+
+Sain A-rating eli SSL sertifikaatti on oikein asennettu ja voimassa. 
+
+![image](https://github.com/user-attachments/assets/95dbe0fc-1ee7-4750-aee3-198f507db132)
+
+![image](https://github.com/user-attachments/assets/c3ca7569-6271-4843-ae79-eed41ad6fea1)
+
+Lähde: https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/  
+https://www.ssllabs.com/ssltest/index.html  
 
 ## Vapaaehtoinen
 
 Tee webbilomake, jossa käyttäjätunnus ja salasana. 
 
 ## Lähteet 
-Let's Encrypt. 26.6.2024. How It Works. https://letsencrypt.org/how-it-works/
+Let's Encrypt. 26.6.2024. How It Works. https://letsencrypt.org/how-it-works/  
+Lange 2024: Lego: Obtain a Certificate: https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server  
+The Apache Software Foundation 2025: Apache HTTP Server Version 2.4 [Official] Documentation: SSL/TLS Strong Encryption: How-To: https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
+SSLLabs. SSL Server Test. https://www.ssllabs.com/ssltest/index.html  
+Cloudfare. What is TLS (Transport Layer Security)? https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/
