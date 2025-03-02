@@ -46,7 +46,7 @@ Hankitaan ja asennetaan palvelimelleni ilmainen TLS-sertifikaatti Let's Encrypti
 
 ![image](https://github.com/user-attachments/assets/78499282-3102-4a8c-8b93-470d30ea6417)
 
-Lukosta, jossa rasti voidaan nähdään, että https ei ole vielä käytössä: 
+Lukosta, jossa viiva päällä voidaan nähdään, että https ei ole vielä käytössä: 
 
 ![image](https://github.com/user-attachments/assets/f547cdb6-a6d3-41b6-b433-21004902a868)
 
@@ -58,9 +58,9 @@ Seuraavaksi kirjauduin sisään minun etäpalvelimelle, päivitin ja latasin leg
 
 ### Testisertifikaatti
 
-Aloin tekemään testipalvelimella testisertifikaattia. 
+Aloitin ensimmäiseksi tekemään testisertifikaattia. Kuulemma kannattaa tehdä testisertifikaatti ensin, että ei sotke oikeaa ympäristöä ja käytä onnistumisyrityksiä.
 
-Ensimmäiseksi tein lego kansion testisertifikaatille.
+Ensimmäiseksi tein lego-kansion testisertifikaatille.
 
 ![image](https://github.com/user-attachments/assets/c8c62ff7-6f1e-44ec-8223-4cbd733e77d3)
 
@@ -84,14 +84,18 @@ Tämä onnistui, ja palautui teksti:
 
 ![image](https://github.com/user-attachments/assets/e64076ac-482c-4292-862a-3430a721315c)
 
-Myös lego kansioon tuli sertifikaatti näkyviin: 
+Myös lego-kansioon tuli sertifikaatti näkyviin: 
 
 ![image](https://github.com/user-attachments/assets/56b6039f-6568-4598-884c-36b684894f15)
 
 ### Oikea sertifikaatti
 
-Laitoin testisertifikaatin lego-kansion pois käytöstä ja nimesin sen uudestaan. Tämän jälkeen
-tein uuden lego kansion oikealle sertifikaatille.
+Sitten aloin tekemään oikeaa sertifikaattia, koska testisertifikaatti onnistui. 
+Ensimmäiseksi laitoin testisertifikaatin lego-kansion pois käytöstä ja nimesin sen uudestaan (dislego). 
+
+- $ mv -n lego dislego
+
+Tämän jälkeen tein uuden lego-kansion oikealle sertifikaatille.
 
 ![image](https://github.com/user-attachments/assets/c5567838-917d-4627-8171-ede5459124f7)
 
@@ -114,15 +118,15 @@ Sertifikaation luominen onnistui, ja sain tekstin "Server responded with a certi
 
 ### Sertifikaatti käyttöön Name Based Virtual Host:issa
 
-Seuraavaksi tarkoituksena olisi ottaa otetaan käyttöön sertifikaatti name based virtual host:issa. Ensiksi menin  Virtual Host asetuksiin ja lisäsin sinne asetukset 443-portilla. 
+Seuraavaksi tarkoituksena oli ottaa käyttöön sertifikaatti Name Based Virtual Host:issa. Ensiksi menin virtual host asetuksiin ja lisäsin sinne asetukset 443-portilla. 
 
 ![image](https://github.com/user-attachments/assets/9e9d11af-856c-4049-a1bc-6acfcd50a35f)
 
-Micro editoriin: 
+Editoriin asetukset 443-portilla: 
 
 ![image](https://github.com/user-attachments/assets/5a49e7d1-ed5c-41e9-a96c-58eb7c5e98e7)
 
-Sitten muutokset käyttöön: 
+Sitten muutokset käyttöön komennoilla: 
 
  - $ sudo systemctl restart apache2
  - $ sudo apache2ctl configtest
@@ -135,7 +139,7 @@ Tein reiän palomuuriin komennolla:
 
 - $ sudo ufw 443/tcp
 
-Seuraavaksi menin sivustolle katsomaan onko nyt https onnistuneesti käytössä. Kyllä, nyt minulla oli käytössä https omalla verkkosivulla.
+Seuraavaksi menin sivustolleni katsomaan onko nyt https onnistuneesti käytössä. Kyllä, nyt minulla oli käytössä https omalla verkkosivulla.
 
 ![image](https://github.com/user-attachments/assets/40e0b6e2-b6f2-432e-a597-781e7405091c)
 
