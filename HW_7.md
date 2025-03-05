@@ -60,6 +60,18 @@ Tarkistin, että lataus onnistui samalla tavalla kuin javassa.
 
 ![image](https://github.com/user-attachments/assets/724755a1-3e60-431d-a9f6-fd4a3f44e04d)
 
+Tein ckansion, avasin kansiossa micron.
+
+![image](https://github.com/user-attachments/assets/96d48d32-b9b7-470b-93ea-1dc94f570363)
+
+Lisäsin sinne koodin: 
+
+![image](https://github.com/user-attachments/assets/50057d08-934b-4671-8cb0-ca84f34632b6)
+
+Lopetuksi vielä kokeillaan tulostuuko oikein. 
+
+![image](https://github.com/user-attachments/assets/6fc9c59a-3152-4b15-98b1-2e411b888d22)
+
 Lähde: https://data-flair.training/blogs/install-c-on-linux/
 
 ### Python
@@ -68,6 +80,17 @@ Muistin, että Python pitäisi olla valmiiksi asennettuna debian ympäristössä
 
 ![image](https://github.com/user-attachments/assets/43e3c429-a4ad-4e0a-ab0d-f2d10ccbfd7c)
 
+Sama tapa, kuin edellisissä. Uusi kansio ja microon koodi: 
+
+![image](https://github.com/user-attachments/assets/37865a63-c87a-4aca-a8f8-2f57447020cd)
+
+Suoritetaan komennolla: 
+
+- $ python3 Hello.py
+
+![image](https://github.com/user-attachments/assets/122632fb-b5aa-4576-8787-0ce20a0d7783)
+
+#### Lopetus 5.3.2025 klo. 14:22
 
 ## c) Uusi komento
 
