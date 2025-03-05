@@ -31,7 +31,12 @@ Asennetun java version näin komennolla:
 
 ![image](https://github.com/user-attachments/assets/8b04319d-c80a-4275-8554-fbf20798325c)
 
-Tein javakansion ja kansiossa avasin micron, että saan lisättyä sinne "Hello World" koodin. 
+Tein javakansion ja avasin micron komennoilla:
+
+- $ mkdir javakansio
+- $ micro Hello.java
+
+Microon lisäsin "Hello World" koodin. 
 
 ![image](https://github.com/user-attachments/assets/6cb56ea3-bde4-48a4-8bf3-19f4dd6d8895)
 
