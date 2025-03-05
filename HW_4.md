@@ -1,4 +1,12 @@
-# Maailma kuulee h4
+# h4 Maailma kuulee
+
+Tekijä: Marianne Taipale   
+Kotitehtävä kurssille: Linux Palvelimet ICI003AS2A-3008  
+Tehtävänanto: https://terokarvinen.com/linux-palvelimet/   
+
+## Laitteeni
+- Lenovon Yoga Pro 7
+- Ryzen 7 Prosessori
 
 ## x)
 
