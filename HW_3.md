@@ -1,8 +1,12 @@
-# Hello Web Server
+# h3 Hello Web Server
 
-Laitteeni:
-Lenovo Yoga Pro 7 ja toimiva wifi-yhteys. 
-AMD Ryzen 7 prosessori. 
+Tekijä: Marianne Taipale   
+Kotitehtävä kurssille: Linux Palvelimet ICI003AS2A-3008  
+Tehtävänanto: https://terokarvinen.com/linux-palvelimet/   
+
+## Laitteeni
+- Lenovon Yoga Pro 7
+- Ryzen 7 Prosessori
 
 ## Name-Based Virtual Host Support
 
