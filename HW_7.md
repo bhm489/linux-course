@@ -5,7 +5,7 @@ Kotitehtävä kurssille: Linux Palvelimet ICI003AS2A-3008
 Tehtävänanto: https://terokarvinen.com/linux-palvelimet/   
 
 ## Laitteeni
-- Lenovon Yoga Pro 7
+- Lenovo Yoga Pro 7
 - Ryzen 7 Prosessori
 
 ## a) Hei maailma
@@ -31,7 +31,22 @@ Asennetun java version näin komennolla:
 
 ![image](https://github.com/user-attachments/assets/8b04319d-c80a-4275-8554-fbf20798325c)
 
-Lähde: https://wiki.debian.org/Java 
+Tein javakansion ja kansiossa avasin micron, että saan lisättyä sinne "Hello World" koodin. 
+
+![image](https://github.com/user-attachments/assets/6cb56ea3-bde4-48a4-8bf3-19f4dd6d8895)
+
+Ilmeisesti lähdekoodi on muutettava konekieliseksi ohjelmaksi, ennekuin ohjelma voidaan ajaa onnistuneesti. 
+
+- $ javac Hello.java
+
+Viimeisenä, katsotaan tulostuuko Hello World teksti nyt oikein.
+
+- $ java Hello
+
+![image](https://github.com/user-attachments/assets/c8122eee-dd67-4017-9ac0-2b350afe2c79)
+
+Lähde: https://wiki.debian.org/Java  
+https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html 
 
 ### C 
 
@@ -63,3 +78,4 @@ Muistin, että Python pitäisi olla valmiiksi asennettuna debian ympäristössä
 ## Lähteet
 Tero Karvinen, 27.9.2018. Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/   
 Debian Wiki. Java. https://wiki.debian.org/Java  
+Oracle. Javac. https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html
