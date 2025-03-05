@@ -1,10 +1,13 @@
 # Salataampa h6
 
-## Laitteeni 
+Tekijä: Marianne Taipale   
+Kotitehtävä kurssille: Linux Palvelimet ICI003AS2A-3008  
+Tehtävänanto: https://terokarvinen.com/linux-palvelimet/   
 
-- Lenovo Yoga Pro 7
+## Laitteeni
+- Lenovon Yoga Pro 7
 - Ryzen 7 Prosessori
-
+  
 ## x) Lue ja tiivistä
 #### 26.2.2025 Klo. 9:55 
 
