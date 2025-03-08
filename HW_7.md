@@ -191,7 +191,7 @@ Menin hakemistoon ja tein sinne html koodin.
 
 ![image](https://github.com/user-attachments/assets/2f617156-e2a1-45b5-89cb-834e42d3b500)
 
-Loin VirtualHostin ja uuden tiedoston. Otin juuri tehdyt asetukset käyttöön komennoilla:
+Loin VirtualHostin ja uuden tiedoston. Otin juuri tehdyt asetukset käyttöön.
 
 ![image](https://github.com/user-attachments/assets/21440c4c-36c1-42d8-8885-6217985f0bb7)
 ![image](https://github.com/user-attachments/assets/ca5c910e-649c-40b4-b5f2-29cfb5669fc9)
