@@ -25,18 +25,18 @@ Aloitin asentamalla Java paketin komennolla:
 
 ![image](https://github.com/user-attachments/assets/57fba0d1-c37f-4358-a888-410e12568b69)
 
-Asennetun java version näin komennolla: 
+Asennetun java version näki komennolla: 
 
 - $ java --version
 
 ![image](https://github.com/user-attachments/assets/8b04319d-c80a-4275-8554-fbf20798325c)
 
-Tein javakansion ja avasin micron komennoilla:
+Tein java-kansion ja avasin micron:
 
 - $ mkdir javakansio
 - $ micro Hello.java
 
-Microon lisäsin java koodin. 
+Microon lisäsin yksinkertaisen "Hello World" java koodin. 
 
 ![image](https://github.com/user-attachments/assets/6cb56ea3-bde4-48a4-8bf3-19f4dd6d8895)
 
