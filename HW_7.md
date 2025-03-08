@@ -150,7 +150,9 @@ Kokeilin toimiiko ohjelma. Ohjelma nyt toimi eri hakemistoissa ja nyt kaikki kä
 #### 8.3.2025 klo. 12:17 
 
 Seuraavaksi tehtävänä oli ratkaista jokin vanha laboratorioharjoitus soveltuvin osin. 
-Valitsin seuraavan laboratorioharjoituksen ratkaistavaksi: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/ 
+Valitsin seuraavan laboratorioharjoituksen ratkaistavaksi:
+https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/ 
+Tästä tein kaksi kohtaa. 
 
 ### Howdy 
 ```
@@ -203,28 +205,6 @@ IP osoitteen sain selville komennolla:
 Menin katsomaan netissä, että toimiiko verkkosivu kun syötän oman IP osoitteeni, ja sillä se näkyi. 
 
 ![image](https://github.com/user-attachments/assets/f8b75a5f-c067-45a0-98db-cbd1a1216b84)
-
-### Salattua hallintaa
-```
-(Soveltaen)
-SSH
-Tee uusi käyttäjä omalla nimelläsi, esim. minä tekisin "Tero Karvinen test", login name: "terote01"
-Automatisoi ssh-kirjautuminen julkisen avaimen menetelmällä, niin että et tarvitse salasanoja, kun kirjaudut sisään. Voit käyttää kirjautumiseen localhost-osoitetta.
-```
-Tarkastin ensiksi, että ssh on päällä ja toimii: 
-
-![image](https://github.com/user-attachments/assets/ea788434-e3b6-4a45-9196-f06d965c689a)
-
-Tein uuden käyttäjän ja kirjauduin sillä sisään. 
-
-![image](https://github.com/user-attachments/assets/5a935328-22a4-4840-bcd7-9fd341fb0cae)
-
-Loin uudet ssh avaimet: 
-
--$ ssh-keygen 
-
-Nyt minulla oli ssh avain ja uusi käyttäjä, mutta en osannut tehdä kirjautumista siten, että se ei kysy salasanaa. En ollut varma, miten alottaa tämä.
-Yritin katsoa netistä apua, mutta en löytänyt mitään mitä ymmärtäisin. 
 
 #### Lopetus 8.3.2025 klo. 14:45
 
