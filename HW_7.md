@@ -36,7 +36,7 @@ Tein javakansion ja avasin micron komennoilla:
 - $ mkdir javakansio
 - $ micro Hello.java
 
-Microon lisäsin "Hello World" koodin. 
+Microon lisäsin java koodin. 
 
 ![image](https://github.com/user-attachments/assets/6cb56ea3-bde4-48a4-8bf3-19f4dd6d8895)
 
@@ -98,10 +98,53 @@ Suoritetaan komennolla:
 #### Lopetus 5.3.2025 klo. 14:22
 
 ## c) Uusi komento
+#### 8.3.2025 klo. 10:00 
+
+### Komento, jota kaikki käyttäjät voivat käyttää. 
+
+Ensimmäiseksi tein uuden komennon. Pääsin tehdä tämän käyttäen pythonia, ja tein vain yksinkertaisen kertolaskun 10*10.  
+
+![image](https://github.com/user-attachments/assets/f9a6ca77-f1db-4dc6-8d3d-50efbaddfef7)
+
+Avasin micron ja laitoin seuraavat: 
+
+Yksinkertainen python koodi.  
+
+![image](https://github.com/user-attachments/assets/a3b8cf27-a41f-4875-9801-4a21eb47bda4)
+
+Lisäsin microon vielä ```#!/usr/bin/python#```, tämä kertoo ohjelmalle, että millä ohjelmalla skripti pitää ajaa, eli minulla pythonilla.
+
+![image](https://github.com/user-attachments/assets/becced62-eaa5-48a7-a728-ac8be8479553)
+
+### Oikeudet komennolle: 
+
+Ensiksi tarkastelin, että mitkä oikeudet komennolla oli. 
+
+- $ ls -l tentimes.py
+
+Lisäsin tarkastelu-oikeudet kaikille ryhmille.
+
+ - $ chmod ugo+x tentimes.py 
+  
+![image](https://github.com/user-attachments/assets/ee8c7fca-ff91-431a-8e21-10055f03f43e)
+
+Komennon oikeudet:
+
+![image](https://github.com/user-attachments/assets/2343bd8f-f576-449e-abd7-322f7c9eb14d)
+
+Kokeilin, että toimiiko python ohjelma ja vaihdoin nimen vielä, johonkin järkevämpään. 
+
+![image](https://github.com/user-attachments/assets/b9b87d97-2a18-4c6c-b7d7-bc4ebd6e386a)
+
+Seuraavaksi, että ohjelma olisi mahdollista ajaa kaikilla käyttäjillä suoritin komennon: 
+
+- $ sudo cp tentimes /usr/local/bin/
+
+Kokeilin toimiiko ohjelma. Ohjelma nyt toimii eri hakemistoissa ja nyt kaikki käyttäjät pystyvät sen ajaa. 
+
+![image](https://github.com/user-attachments/assets/5e9a6ec0-f03c-4d1e-b889-92b75ae107f9)
 
 ## d) Laboratorioharjoitus
-
-## e) Tyhjä virtuaalikone
 
 ## Lähteet
 Tero Karvinen, 27.9.2018. Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/   
