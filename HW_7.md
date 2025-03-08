@@ -217,6 +217,13 @@ Tarkastin että ssh toimii:
 
 ![image](https://github.com/user-attachments/assets/ea788434-e3b6-4a45-9196-f06d965c689a)
 
+Tein uuden käyttäjän ja kirjauduin sillä sisään. 
+
+![image](https://github.com/user-attachments/assets/5a935328-22a4-4840-bcd7-9fd341fb0cae)
+
+Loin uudet ssh avaimet: 
+
+-$ ssh-keygen 
 
 
 
