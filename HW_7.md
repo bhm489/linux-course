@@ -229,6 +229,8 @@ Loin uudet ssh avaimet:
 Nyt minulla oli ssh avain ja uusi käyttäjä, mutta en osannut tehdä kirjautumista siten, että se ei kysy salasanaa. En ollut varma, miten alottaa tämä.
 Yritin katsoa netistä apua, mutta en löytänyt mitään mitä ymmärtäisin. 
 
+#### Lopetus 8.3.2025 klo. 14:45
+
 ## Lähteet
 Tero Karvinen, 27.9.2018. Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/   
 Debian Wiki. Java. https://wiki.debian.org/Java  
