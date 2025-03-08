@@ -183,11 +183,11 @@ Sitten kokeilin tulostaako "howdy" oikein hakemistosta riippumatta, kyllä tulos
 - Sivua pitää päästä muokkaamaan normaalin käyttäjän oikeuksin (ilman sudoa).
 ```
 
-Loin uuden hakemiston johon sivun tiedostot tallennetaan. 
+Loin uuden hakemiston, johon tallensin sivun tiedostot. 
 
 ![image](https://github.com/user-attachments/assets/ec3b1b29-0f7d-4519-a324-ae3d543aa16c)
 
-Menin hakemistoon ja tein html koodin. 
+Menin hakemistoon ja tein sinne html koodin. 
 
 ![image](https://github.com/user-attachments/assets/2f617156-e2a1-45b5-89cb-834e42d3b500)
 
@@ -203,7 +203,7 @@ IP osoitteen sain selville komennolla:
 
 - $ hostname -I
 
-Menin katsomaan toimiiko sivu kun syötän oman IP osoitteeni, sillä se näkyi. 
+Menin katsomaan netissä, että toimiiko verkkosivu kun syötän oman IP osoitteeni, ja sillä se näkyi. 
 
 ![image](https://github.com/user-attachments/assets/f8b75a5f-c067-45a0-98db-cbd1a1216b84)
 
@@ -214,7 +214,7 @@ SSH
 Tee uusi käyttäjä omalla nimelläsi, esim. minä tekisin "Tero Karvinen test", login name: "terote01"
 Automatisoi ssh-kirjautuminen julkisen avaimen menetelmällä, niin että et tarvitse salasanoja, kun kirjaudut sisään. Voit käyttää kirjautumiseen localhost-osoitetta.
 ```
-Tarkastin että ssh on päällä ja toimii: 
+Tarkastin ensiksi, että ssh on päällä ja toimii: 
 
 ![image](https://github.com/user-attachments/assets/ea788434-e3b6-4a45-9196-f06d965c689a)
 
@@ -226,7 +226,7 @@ Loin uudet ssh avaimet:
 
 -$ ssh-keygen 
 
-Nyt minulla oli ssh avaimet ja uusi käyttäjä, mutta en osannut tehdä kirjautumista siten, että se ei kysy salasanaa. En ollut varma, miten alottaa tämä.
+Nyt minulla oli ssh avain ja uusi käyttäjä, mutta en osannut tehdä kirjautumista siten, että se ei kysy salasanaa. En ollut varma, miten alottaa tämä.
 Yritin katsoa netistä apua, mutta en löytänyt mitään mitä ymmärtäisin. 
 
 ## Lähteet
