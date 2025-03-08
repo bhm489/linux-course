@@ -144,9 +144,46 @@ Kokeilin toimiiko ohjelma. Ohjelma nyt toimii eri hakemistoissa ja nyt kaikki k�
 
 ![image](https://github.com/user-attachments/assets/5e9a6ec0-f03c-4d1e-b889-92b75ae107f9)
 
+#### Lopetus 8.3.2025 klo. 10:55
+
 ## d) Laboratorioharjoitus
+#### 8.3.2025 klo. 12:17 
+
+Seuraavaksi tehtävänä oli ratkaista jokin vanha laboratorioharjoitus soveltuvin osin. 
+Valitsin seuraavan laboratorioharjoituksen ratkaistavaksi: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/ 
+
+### Howdy 
+```
+- Tee kaikkien käyttäjien käyttöön komento 'howdy'
+ - Tulosta haluamaasi ajankohtaista tietoa, esim päivämäärä, koneen osoite tms
+ - Pelkkä "hei maailma" ei riitä
+- Komennon tulee toimia kaikilla käyttäjillä työhakemistosta riippumatta.
+```
+
+Tein uuden tiedoston nanolla, johon lisäsin:
+
+- $ sudo nano /usr/local/bin/howdy
+  
+![image](https://github.com/user-attachments/assets/39cb11cf-7eb6-4bf8-b9ba-67afa98fce25)
+
+Muokkasin oikeuksia, että komento toimisi kaikilla käyttäjillä:
+
+- $ sudo chmod +x /usr/local/bin/howdy
+
+Sitten kokeilin tulostaako "howdy" oikein hakemistosta riippumatta, kyllä tulosti. 
+
+![image](https://github.com/user-attachments/assets/1facbd73-a8c2-4c0a-9839-fd7900c3d711)
+
+### Etusivu uusiksi
+```
+- Tee yrityksellemme "AI Kakone" kotisivu
+- Kotisivu tulee näkyä koneesi IP-osoitteella suoraan etusivulla
+- Sivua pitää päästä muokkaamaan normaalin käyttäjän oikeuksin (ilman sudoa).
+```
+
 
 ## Lähteet
 Tero Karvinen, 27.9.2018. Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/   
 Debian Wiki. Java. https://wiki.debian.org/Java  
-Oracle. Javac. https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html
+Oracle. Javac. https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html 
+Tero Karvinen. Final Lab for Linux Palvelimet 2024 Spring. https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/ 
