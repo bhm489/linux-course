@@ -36,15 +36,15 @@ Tein java-kansion ja avasin micron:
 - $ mkdir javakansio
 - $ micro Hello.java
 
-Microon lisäsin yksinkertaisen "Hello World" java koodin. 
+Microon lisäsin yksinkertaisen "Hello, World" java koodin. 
 
 ![image](https://github.com/user-attachments/assets/6cb56ea3-bde4-48a4-8bf3-19f4dd6d8895)
 
-Ilmeisesti lähdekoodi on muutettava konekieliseksi ohjelmaksi, ennekuin ohjelma voidaan ajaa onnistuneesti. 
+Ilmeisesti lähdekoodi on muutettava konekieliseksi ohjelmaksi, ennen kuin ohjelma voidaan ajaa onnistuneesti. 
 
 - $ javac Hello.java
 
-Viimeisenä, katsotaan tulostuuko Hello World teksti nyt oikein.
+Teksti tulostui nyt oikein:
 
 - $ java Hello
 
@@ -59,13 +59,13 @@ C kielen asennus:
 
 - $ sudo apt install gcc
 
-Tarkistin, että lataus onnistui samalla tavalla kuin javassa. 
+Tarkistin, että lataus onnistui samalla tavalla kuin Javan kanssa. 
 
 - $ gcc --version
 
 ![image](https://github.com/user-attachments/assets/724755a1-3e60-431d-a9f6-fd4a3f44e04d)
 
-Tein ckansion, avasin kansiossa micron.
+Tein c-kansion, avasin kansiossa micron.
 
 ![image](https://github.com/user-attachments/assets/96d48d32-b9b7-470b-93ea-1dc94f570363)
 
@@ -73,7 +73,7 @@ Lisäsin sinne koodin:
 
 ![image](https://github.com/user-attachments/assets/50057d08-934b-4671-8cb0-ca84f34632b6)
 
-Lopetuksi vielä kokeillaan tulostuuko oikein. 
+Lopetuksi vielä kokeilin tulostuuko teksti oikein. 
 
 ![image](https://github.com/user-attachments/assets/6fc9c59a-3152-4b15-98b1-2e411b888d22)
 
@@ -85,7 +85,7 @@ Muistin, että Python pitäisi olla valmiiksi asennettuna debian ympäristössä
 
 ![image](https://github.com/user-attachments/assets/43e3c429-a4ad-4e0a-ab0d-f2d10ccbfd7c)
 
-Sama tapa, kuin edellisissä. Uusi kansio ja microon koodi: 
+Samalla tavalla, kuin edellisissä. Uusi kansio ja microon koodi: 
 
 ![image](https://github.com/user-attachments/assets/37865a63-c87a-4aca-a8f8-2f57447020cd)
 
@@ -122,7 +122,7 @@ Ensiksi tarkastelin, että mitkä oikeudet komennolla oli.
 
 - $ ls -l tentimes.py
 
-Lisäsin tarkastelu-oikeudet kaikille ryhmille.
+Lisäsin suoritus oikeudet kaikille ryhmille.
 
  - $ chmod ugo+x tentimes.py 
   
@@ -132,7 +132,7 @@ Komennon oikeudet:
 
 ![image](https://github.com/user-attachments/assets/2343bd8f-f576-449e-abd7-322f7c9eb14d)
 
-Kokeilin, että toimiiko python ohjelma ja vaihdoin nimen vielä, johonkin järkevämpään. 
+Kokeilin, että toimiiko python ohjelma ja vaihdoin nimen vielä. 
 
 ![image](https://github.com/user-attachments/assets/b9b87d97-2a18-4c6c-b7d7-bc4ebd6e386a)
 
@@ -140,7 +140,7 @@ Seuraavaksi, että ohjelma olisi mahdollista ajaa kaikilla käyttäjillä suorit
 
 - $ sudo cp tentimes /usr/local/bin/
 
-Kokeilin toimiiko ohjelma. Ohjelma nyt toimii eri hakemistoissa ja nyt kaikki käyttäjät pystyvät sen ajaa. 
+Kokeilin toimiiko ohjelma. Ohjelma nyt toimi eri hakemistoissa ja nyt kaikki käyttäjät pystyivät sen ajaa. 
 
 ![image](https://github.com/user-attachments/assets/5e9a6ec0-f03c-4d1e-b889-92b75ae107f9)
 
@@ -154,6 +154,7 @@ Valitsin seuraavan laboratorioharjoituksen ratkaistavaksi: https://terokarvinen.
 
 ### Howdy 
 ```
+(Soveltaen)
 - Tee kaikkien käyttäjien käyttöön komento 'howdy'
  - Tulosta haluamaasi ajankohtaista tietoa, esim päivämäärä, koneen osoite tms
  - Pelkkä "hei maailma" ei riitä
