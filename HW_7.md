@@ -176,10 +176,48 @@ Sitten kokeilin tulostaako "howdy" oikein hakemistosta riippumatta, kyllä tulos
 
 ### Etusivu uusiksi
 ```
+(Soveltaen)
 - Tee yrityksellemme "AI Kakone" kotisivu
 - Kotisivu tulee näkyä koneesi IP-osoitteella suoraan etusivulla
 - Sivua pitää päästä muokkaamaan normaalin käyttäjän oikeuksin (ilman sudoa).
 ```
+
+Loin uuden hakemiston johon sivun tiedostot tallennetaan. 
+
+![image](https://github.com/user-attachments/assets/ec3b1b29-0f7d-4519-a324-ae3d543aa16c)
+
+Menin hakemistoon ja tein html koodin. 
+
+![image](https://github.com/user-attachments/assets/2f617156-e2a1-45b5-89cb-834e42d3b500)
+
+Loin VirtualHostin ja uuden tiedoston: 
+
+![image](https://github.com/user-attachments/assets/21440c4c-36c1-42d8-8885-6217985f0bb7)
+
+Otin juuri tehdyt asetukset käyttöön komennoilla: 
+
+![image](https://github.com/user-attachments/assets/ca5c910e-649c-40b4-b5f2-29cfb5669fc9)
+
+IP osoitteen sain selville komennolla: 
+
+- $ hostname -I
+
+Menin katsomaan toimiiko sivu kun syötän oman IP osoitteeni, sillä se näkyi. 
+
+![image](https://github.com/user-attachments/assets/f8b75a5f-c067-45a0-98db-cbd1a1216b84)
+
+### Salattua hallintaa
+```
+(Soveltaen)
+SSH
+Tee uusi käyttäjä omalla nimelläsi, esim. minä tekisin "Tero Karvinen test", login name: "terote01"
+Automatisoi ssh-kirjautuminen julkisen avaimen menetelmällä, niin että et tarvitse salasanoja, kun kirjaudut sisään. Voit käyttää kirjautumiseen localhost-osoitetta
+```
+Tarkastin että ssh toimii: 
+
+![image](https://github.com/user-attachments/assets/ea788434-e3b6-4a45-9196-f06d965c689a)
+
+
 
 
 ## Lähteet
