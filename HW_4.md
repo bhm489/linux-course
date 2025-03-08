@@ -36,10 +36,6 @@ Lähde: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla
  
 Lähde: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 
-## Laitteeni 
-    - Lenovo Yoga Pro 7
-    - AMD Ryzen Prosessori
-
 ## a) Vuokraa oma virtuaalipalvelin
 
 #### Aloitus 6.2.2025 klo. 17.11 
