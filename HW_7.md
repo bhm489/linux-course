@@ -13,7 +13,7 @@ Tehtävänanto: https://terokarvinen.com/linux-palvelimet/
 
 Tehtävän tarkoituksena on ajaa "Hei maailma" kolmella eri ohjelmointikielellä. Valitsin kieliksi, javan, pythonin ja C:n. 
 
-Ensimmäiseksi päivitin, ennenkuin aloin lataamaan Javaa, ja C:tä 
+Ensimmäiseksi päivitin ennen kuin aloin lataamaan Javaa, ja C:tä 
 
 ![image](https://github.com/user-attachments/assets/3271765a-dd01-4a4f-b03b-932f505b0c95)
 
@@ -102,19 +102,19 @@ Suoritetaan komennolla:
 
 ### Komento, jota kaikki käyttäjät voivat käyttää. 
 
-Ensimmäiseksi tein uuden komennon. Pääsin tehdä tämän käyttäen pythonia, ja tein vain yksinkertaisen kertolaskun 10*10.  
+Ensimmäiseksi tein uuden komennon. Päätin tehdä tämän käyttäen pythonia, ja tein vain yksinkertaisen kertolaskun 10*10.  
 
-![image](https://github.com/user-attachments/assets/f9a6ca77-f1db-4dc6-8d3d-50efbaddfef7)
+Avasin micron ja laitoin sinne seuraavat: 
 
-Avasin micron ja laitoin seuraavat: 
-
-Yksinkertainen python koodi.  
+Yksinkertaisen python koodin.  
 
 ![image](https://github.com/user-attachments/assets/a3b8cf27-a41f-4875-9801-4a21eb47bda4)
 
 Lisäsin microon vielä ```#!/usr/bin/python#```, tämä kertoo ohjelmalle, että millä ohjelmalla skripti pitää ajaa, eli minulla pythonilla.
 
 ![image](https://github.com/user-attachments/assets/becced62-eaa5-48a7-a728-ac8be8479553)
+
+![image](https://github.com/user-attachments/assets/f9a6ca77-f1db-4dc6-8d3d-50efbaddfef7)
 
 ### Oikeudet komennolle: 
 
@@ -211,9 +211,9 @@ Menin katsomaan toimiiko sivu kun syötän oman IP osoitteeni, sillä se näkyi.
 (Soveltaen)
 SSH
 Tee uusi käyttäjä omalla nimelläsi, esim. minä tekisin "Tero Karvinen test", login name: "terote01"
-Automatisoi ssh-kirjautuminen julkisen avaimen menetelmällä, niin että et tarvitse salasanoja, kun kirjaudut sisään. Voit käyttää kirjautumiseen localhost-osoitetta
+Automatisoi ssh-kirjautuminen julkisen avaimen menetelmällä, niin että et tarvitse salasanoja, kun kirjaudut sisään. Voit käyttää kirjautumiseen localhost-osoitetta.
 ```
-Tarkastin että ssh toimii: 
+Tarkastin että ssh on päällä ja toimii: 
 
 ![image](https://github.com/user-attachments/assets/ea788434-e3b6-4a45-9196-f06d965c689a)
 
@@ -225,7 +225,8 @@ Loin uudet ssh avaimet:
 
 -$ ssh-keygen 
 
-
+Nyt minulla oli ssh avaimet ja uusi käyttäjä, mutta en osannut tehdä kirjautumista siten, että se ei kysy salasanaa. En ollut varma, miten alottaa tämä.
+Yritin katsoa netistä apua, mutta en löytänyt mitään mitä ymmärtäisin. 
 
 ## Lähteet
 Tero Karvinen, 27.9.2018. Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages on Ubuntu 18.04. https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/   
